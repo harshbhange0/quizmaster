@@ -13,18 +13,20 @@
 const cLanguage = [
   //object star add question as shown
   {
-    question: "What is the syntax for declaring a variable in C?",
+    question: "question ",
     //ans value is 1 and the option 1 value is answer
-    ans: 1,
+    ans: 1, //answer number as option array
     //option will be an array
     option: [
-      "int variableName",
+      "this is answer",
       //^this is answer
-      "veriableName = int",
-      "variableName int",
-      "none of the above",
+      " option 1",
+      " option 2",
+      " option 3",
+     
     ],
   },
   //object end add question as shown
 ];
 //array end
+console.log(cLanguage.question)
