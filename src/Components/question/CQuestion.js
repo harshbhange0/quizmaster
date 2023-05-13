@@ -1,8 +1,13 @@
 //don't forget to add comma after the objects property's value
-// ans property will be same as options value
+
 
 // if question 1 ans is int variableName then the ans value well be 1
 // as shown in following
+
+//each question have septet object
+// option have value as array
+
+// ans value === option array's value 
 
 // array start
 const cLanguage = [
@@ -13,7 +18,8 @@ const cLanguage = [
     ans: 1,
     //option will be an array
     option: [
-      "int variableName",//this is ans
+      "int variableName",
+      //^this is answer
       "veriableName = int",
       "variableName int",
       "none of the above",
