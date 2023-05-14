@@ -1,6 +1,6 @@
 const javaLanguage =[
     {
-        question: "Number of primitive data types in Java are?stion ",
+        question: "Number of primitive data types in Java are? ",
         ans: 4, 
         option: [
              " 6",

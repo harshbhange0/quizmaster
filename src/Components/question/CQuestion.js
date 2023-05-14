@@ -30,4 +30,3 @@ const cLanguage = [
   //object end add question as shown
 ];
 //array end
-console.log(cLanguage.question)
