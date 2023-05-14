@@ -1,12 +1,7 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import './App.css'
-<<<<<<< HEAD
 import QuestionSection from "./Components/QuestionSection";
-=======
-import Offcanvas from "./Components/Offcanvas";
-import SideBarSection from "./Components/SideBar";
->>>>>>> 0d2805b5b640f0650f833e094efa86bad9e22c56
 
 
 function App() {
