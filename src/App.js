@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import './App.css'
+import QuestionSection from "./Components/QuestionSection";
 
 
 function App() {
   return (
-    <div className="App shadow-sm ">
+    <div className="App ">
       <Navbar />
       <div className="container-fluid">
         <div className="row">
@@ -19,6 +20,7 @@ function App() {
               </div>
               <div className="col-12">
                 {/* this section question  */}
+                <QuestionSection/>
               </div>
             </div>
           </div>
