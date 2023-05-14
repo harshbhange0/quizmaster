@@ -10,3 +10,23 @@
     transition: ease .10s;
 
 }
+.nextbtn{
+    outline: none;
+    border: .01rem solid #d9aeff;
+    background-color: #ebe2f9; 
+}
+.nextbtn:hover{
+    background-color: #e2d5f8; 
+    transition: ease .10s;
+}
+.btn-option{
+    border: .01rem solid #e4cafa;
+    background-color: #ebe2f9;
+}
+.side-Sction-Holder{
+    background-color: #fff;
+}
+
+.App{
+    background-color: #fbf6ff;
+}
