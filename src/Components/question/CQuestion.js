@@ -23,10 +23,10 @@ const cLanguage = [
       " option 1",
       " option 2",
       " option 3",
+      
      
     ],
   },
   //object end add question as shown
 ];
 //array end
-console.log(cLanguage.question)
