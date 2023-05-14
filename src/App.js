@@ -1,24 +1,29 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
+
 import './App.css'
 import QuestionSection from "./Components/QuestionSection";
 import SideBarSection from "./Components/SideBar";
+
+
+import "./App.css";
+
+import Offcanvas from "./Components/Offcanvas";
+import SideBarSection from "./Components/SideBar";
+import QuestionSection from "./Components/QuestionSection";
 
 
 function App() {
   return (
     <div className="App ">
       <div className="top-navbar">
-      <Navbar />
+        <Navbar />
       </div>
-  
-
       <div className="container-fluid">
         <div className="row">
-          <div className="d-none d-sm-none d-md-flex col-md-3">
-            <div className=" d-none d-sm-none d-md-flex flex-column border-end h-100 w-100 p-4" >
-
-            <SideBarSection/>
+          <div className="d-none side-Sction-Holder d-sm-none border-end d-md-flex col-md-3">
+            <div className="  d-none d-sm-none d-md-flex flex-column  h-100 w-100 p-4">
+              <SideBarSection />
             </div>
           </div>
           <div className="col-12 col-sm-12 col-md-9 ">
@@ -28,10 +33,10 @@ function App() {
               </div>
               <div className="col-12">
                 {/* this section question  */}
-                <QuestionSection/>
+                <QuestionSection />
               </div>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
     </div>
