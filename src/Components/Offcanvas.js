@@ -1,3 +1,4 @@
+import SideBarSection from "./SideBar"
 import Linesvg from "./img/Linesvg"
 
 function Offcanvas(){
@@ -16,7 +17,7 @@ function Offcanvas(){
   </div>
   <div className="offcanvas-body">
     <div>
-
+      <SideBarSection/>
     </div>
   </div>
 </div>
