@@ -1,16 +1,21 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import './App.css'
+import Offcanvas from "./Components/Offcanvas";
+import SideBarSection from "./Components/SideBar";
 
 
 function App() {
   return (
     <div className="App shadow-sm ">
       <Navbar />
+      <Offcanvas/>
+  
+
       <div className="container-fluid">
         <div className="row">
           <div className="d-none d-sm-none d-md-flex col-md-3">
-            {/* past leftSide bar  */}
+            <SideBarSection/>
           </div>
           <div className="col-12 col-sm-12 col-md-9 ">
             <div className="row">
