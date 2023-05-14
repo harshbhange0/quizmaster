@@ -1,9 +1,7 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 
-import './App.css'
-import QuestionSection from "./Components/QuestionSection";
-import SideBarSection from "./Components/SideBar";
+
 
 
 import "./App.css";
