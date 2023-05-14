@@ -5,8 +5,10 @@ function Offcanvas(){
     return(
         <>
         <div className="sidebar">
-        <a className="btn offcanvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+        <a className="btn offcanvas-btn btn-group justify-content-center align-items-center mt-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+  <span className="d-block">
     <Linesvg IconHeight="20" IconWidth="20"/>
+  </span>
   
 </a>
 

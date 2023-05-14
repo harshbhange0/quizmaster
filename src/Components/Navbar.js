@@ -1,10 +1,14 @@
 import React from "react";
+import Offcanvas from "./Offcanvas";
 
 function Navbar() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg sticky-top  modify-navbar p-3">
         <div className="container-fluid">
+          <div className="offside-canvas-holder d-flex d-sm-flex d-md-none">
+            <Offcanvas/>
+          </div>
           <a className="navbar-brand" href="/">
             Quiz Master
           </a>

@@ -7,14 +7,18 @@ import QuestionSection from "./Components/QuestionSection";
 function App() {
   return (
     <div className="App ">
+      <div className="top-navbar">
       <Navbar />
-      <Offcanvas/>
+      </div>
   
 
       <div className="container-fluid">
         <div className="row">
           <div className="d-none d-sm-none d-md-flex col-md-3">
+            <div className=" d-none d-sm-none d-md-flex flex-column border-end h-100 w-100 p-4" >
+
             <SideBarSection/>
+            </div>
           </div>
           <div className="col-12 col-sm-12 col-md-9 ">
             <div className="row">

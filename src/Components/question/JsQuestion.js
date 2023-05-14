@@ -1,4 +1,4 @@
-const jsLanguage = [
+export const jsLanguage = [
   {
     question: "Inside which element do we put the Javascript?",
     ans: 0,

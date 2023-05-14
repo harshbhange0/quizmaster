@@ -3,5 +3,10 @@
 }
 .offcanvas-btn{
     background-color: #e4d8fd;
-    margin-top: 5px;
+
+}
+.offcanvas-btn:hover{
+    background-color: #dbcafe;
+    transition: ease .10s;
+
 }
