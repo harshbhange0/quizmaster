@@ -1,49 +1,32 @@
 import React from 'react'
 
+import { jsLanguage } from './question/JsQuestion'
+
+
 function QuestionSection() {
   return (
-    <div className='container-fluid'>
-        
-<div className='row'>
-
-    <div className='col-12'>
-        <span className='fs-4 p-3 mb-2 d-block '>
-        Note that the development build is not optimized.
-To create a production build, use npm run build.
+ <div className='container-fluid'>
+    <div className='row'>
+    </div>
+    <div className=' w-100 question-sction'>
+        <span className='d-block fs-2  w-100 text-center'>
+            {jsLanguage[0].question}
         </span>
     </div>
-
-
-    <div className='col-12'>
-       <div className='container px-3 justify-content-center'>
-        <button className='d-block my-3 shadow-sm rounded-1  w-50'>
-           1
-        </button>
-             
-        <button className='d-block my-3 shadow-sm rounded-1  w-50'>
-            2
-        </button>
-
-        <button className='d-block my-3 shadow-sm rounded-1  w-50'>
-            3
-        </button>
-
-        <button className='d-block my-3 shadow-sm rounded-1  w-50'>
-            4
-        </button>
-
-        <div className='container-btn'>
-            <button>
-                Next
-            </button>
-        </div>
-        </div>
+    <div className='w-100 d-flex flex-column justify-content-center align-items-center'>
+        {jsLanguage[0].option.map((option,i)=>{
+           return (<button className='btn w-50 shadow rounded-1 border-1 my-2 fs-5 p-2'>
+                {option}
+            </button>)
+        })}
     </div>
-</div>
-
+    <div className='nextBtn mt-5 justify-content-center w-100'>
+        <button className='btn shadow-sm d-block mx-auto p-0 w-25'>
+            Next
+        </button>
     </div>
-
-
+  
+ </div>
   )
 }
 
