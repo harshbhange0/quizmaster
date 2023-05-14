@@ -9,10 +9,21 @@
 
 .signup-container{
     margin-top: 30px;
-    margin-left: 110px;
 }
 
 #signup-btn{
-    width: 450px;
+    width: 440px;
     background-color:#cc66ff;
+}
+
+.fl-input{
+    width: 207px;
+    height: 40px;
+    border-radius: 7px;
+}
+
+.up-input{
+    width: 440px;
+    height: 40px;
+    border-radius: 7px;
 }

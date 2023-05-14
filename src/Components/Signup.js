@@ -4,11 +4,11 @@ import img from "../Components/img/Signup img.jpg"
 
 function Signup() {
     return (
-        <div className="d-flex main-container">
-            <div className="">
+        <div className="main-container row">
+            <div className=" col-lg-7 col-md-5">
                 <img src={img} alt="img1" className='img' />
             </div>
-            <div>
+            <div className=" col-lg-5 col-md-7">
                 <div className="signup-container">
                     <h2 className='text-center'> Sign up </h2>
                     <form className="rounded">
@@ -17,21 +17,21 @@ function Signup() {
 
                         <div className="d-flex mb-4">
                             <div className="form-group">
-                                <label for="usernameInput">First name </label>
-                                <input type="text" className="form-control" id="usernameInput" placeholder="First name" />
+                                <label for="usernameInput">First name </label> <br/>
+                                <input type="text" className="fl-input" placeholder="First name" />
                             </div>
                             <div className="form-group ms-4">
-                                <label for="usernameInput">Last name </label>
-                                <input type="text" className="form-control" id="usernameInput" placeholder="Last name" />
+                                <label for="usernameInput">Last name </label> <br/>
+                                <input type="text" className="fl-input" placeholder="Last name" />
                             </div>
                         </div>
                         <div className="form-group">
-                            <label for="usernameInput">Username</label>
-                            <input type="text" className="form-control" id="usernameInput" placeholder="Username" />
+                            <label for="usernameInput">Username</label> <br/>
+                            <input type="text" className="up-input" placeholder="Username" />
                         </div>
                         <div className="form-group mt-4 mb-3">
-                            <label for="passwordInput">Password</label>
-                            <input type="password" className="form-control" id="passwordInput" placeholder="Password" />
+                            <label for="passwordInput">Password</label> <br/>
+                            <input type="password" className="up-input" placeholder="Password" />
                         </div>
                         <button type="button" className="btn mt-3" id='signup-btn'>Sign Up</button>
 
