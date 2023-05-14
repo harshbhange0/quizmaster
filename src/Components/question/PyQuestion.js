@@ -1,8 +1,8 @@
 const PyLanguage =[
     {
-        question1: "Who developed Python Programming Language?",
+        question: "Who developed Python Programming Language?",
 
-        ans: "C",
+        ans: 3,
 
         option:[
             "A)Wick van Rossum",
@@ -15,9 +15,9 @@ const PyLanguage =[
 
 
 {
-    question2: "Which of the following is the correct extension of the Python file?",
+    question: "Which of the following is the correct extension of the Python file?",
 
-    ans: "c",
+    ans: 3,
 
     option:[
         "a) .python",
@@ -29,9 +29,9 @@ const PyLanguage =[
 
 
 {
-    question3: "Which type of Programming does Python support?",
+    question: "Which type of Programming does Python support?",
 
-    ans: "D",
+    ans: 4,
 
     option:[
         "a)  object-oriented programming",
@@ -43,9 +43,9 @@ const PyLanguage =[
 
 
 {
-    question4: "Which of the following statements is used to create an empty set in Python?",
+    question: "Which of the following statements is used to create an empty set in Python?",
 
-    ans: "D",
+    ans: 4,
 
     option:[
         "a)  ()",
@@ -57,9 +57,9 @@ const PyLanguage =[
 
 
 {
-    question5: "Which of the following character is used to give single-line comments in Python?",
+    question: "Which of the following character is used to give single-line comments in Python?",
 
-    ans: "B",
+    ans: 2,
 
     option:[
         "a)  //",
@@ -70,7 +70,7 @@ const PyLanguage =[
 },
 
 {
-    question6: "Which of the following is used to define a block of code in Python language?",
+    question: "Which of the following is used to define a block of code in Python language?",
 
     ans: "A",
 
@@ -84,9 +84,9 @@ const PyLanguage =[
 
 
 {
-    question7: "Which of the following functions is a built-in function in python?",
+    question: "Which of the following functions is a built-in function in python?",
 
-    ans: "B",
+    ans: 2,
 
     option:[
         "a) factorial()",
@@ -98,9 +98,9 @@ const PyLanguage =[
 
 
 {
-    question8: "What will be the output of the following Python function?",
+    question: "What will be the output of the following Python function?",
 
-    ans: "B",
+    ans: 2,
 
     option:[
         "a) pass",
@@ -112,9 +112,9 @@ const PyLanguage =[
 
 
 {
-    question9: "What does pip stand for python?",
+    question: "What does pip stand for python?",
 
-    ans: "C",
+    ans: 3,
 
     option:[
         "a) Pip installs python",
@@ -126,9 +126,9 @@ const PyLanguage =[
 
 
 {
-    question10: "Which of the following functions can help us to find the version of python that we are currently working on?",
+    question: "Which of the following functions can help us to find the version of python that we are currently working on?",
 
-    ans: "D",
+    ans: 4,
    
     option:[
         "a) sys.version(1)",
