@@ -1,0 +1,18 @@
+.main-container{
+    background-color: #e4d8fd;
+}
+
+.img{
+    height: 610px;
+    width: 600px;
+}
+
+.signup-container{
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+#signup-btn{
+    width: 450px;
+    background-color:#cc66ff;
+}
