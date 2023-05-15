@@ -5,10 +5,9 @@ import Navbar from "./Components/Navbar";
 
 
 import "./App.css";
-
-import Offcanvas from "./Components/Offcanvas";
 import SideBarSection from "./Components/SideBar";
 import QuestionSection from "./Components/QuestionSection";
+import Scoreboard from "./Components/Scoreboard";
 
 
 function App() {
@@ -27,7 +26,15 @@ function App() {
           <div className="col-12 col-sm-12 col-md-9 ">
             <div className="row">
               <div className="col-12">
-                {/* this section score board and language name and icon */}
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-4">
+                  <Scoreboard/>
+                  </div>
+                  <div className="col-8"></div>
+                </div>
+              </div>
+              
               </div>
               <div className="col-12">
                 {/* this section question  */}
