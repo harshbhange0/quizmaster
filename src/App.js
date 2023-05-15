@@ -5,8 +5,6 @@ import './App.css'
 import QuestionSection from "./Components/QuestionSection";
 import SideBarSection from "./Components/SideBar";
 import Certification from "./Components/Certification";
- import Logup from "./Components/Signup";
-
 
 function App() {
   return (
@@ -28,7 +26,6 @@ function App() {
         </div>
       </div>
       <Certification />
-      <Logup/>
     </div>
   );
 }
