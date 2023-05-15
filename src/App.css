@@ -10,23 +10,49 @@
     transition: ease .10s;
 
 }
-.nextbtn{
+.next-btn{
     outline: none;
-    border: .01rem solid #d9aeff;
+    border: .01rem solid #e3fbc8;
     background-color: #ebe2f9; 
 }
-.nextbtn:hover{
-    background-color: #e2d5f8; 
+.next-btn:hover{
+    background-color: #d5f8d9; 
     transition: ease .10s;
 }
 .btn-option{
     border: .01rem solid #e4cafa;
     background-color: #ebe2f9;
 }
+.priv-btn{
+    outline: none;
+    border: .01rem solid #fbd2c8;
+    background-color: #ebe2f9; 
+}
+.priv-btn:hover{
+    background-color: #f8dcd5; 
+    transition: ease .10s;
+}
 .side-Sction-Holder{
     background-color: #fff;
 }
-
-.App{
+/* .App{
     background-color: #fbf6ff;
+} */
+
+.que-number{
+    left: 10px;
 }
+.question-sction{
+    border: .01rem solid #ccc;
+    width: 70%;
+
+}
+
+/* certification css start */
+.back-color {
+    background-color: #e4d8fd;
+  }
+  .width-in-rem{
+    width: 18rem;
+  }
+/* certification css end */

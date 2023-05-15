@@ -4,8 +4,8 @@ import Navbar from "./Components/Navbar";
 import './App.css'
 import QuestionSection from "./Components/QuestionSection";
 import SideBarSection from "./Components/SideBar";
-
-import "./App.css";
+import Certification from "./Components/Certification";
+// import Signup from "./Components/Signup";
 
 
 function App() {
@@ -22,18 +22,13 @@ function App() {
             </div>
           </div>
           <div className="col-12 col-sm-12 col-md-9 ">
-            <div className="row">
-              <div className="col-12">
-                {/* this section score board and language name and icon */}
-              </div>
-              <div className="col-12">
-                {/* this section question  */}
-                <QuestionSection />
-              </div>
-            </div>
+            {/* this section question  */}
+            <QuestionSection />
           </div>
         </div>
       </div>
+      <Certification />
+     
     </div>
   );
 }
