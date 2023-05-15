@@ -4,7 +4,6 @@ import Navbar from "./Components/Navbar";
 import './App.css'
 import QuestionSection from "./Components/QuestionSection";
 import SideBarSection from "./Components/SideBar";
-import Signup from "./Components/Signup"
 
 import "./App.css";
 
@@ -35,7 +34,6 @@ function App() {
           </div>
         </div>
       </div>
-      <Signup/>
     </div>
   );
 }
