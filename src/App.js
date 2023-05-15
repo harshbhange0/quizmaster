@@ -1,10 +1,14 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 
+
+
+
 import "./App.css";
 import SideBarSection from "./Components/SideBar";
 import QuestionSection from "./Components/QuestionSection";
 import Scoreboard from "./Components/Scoreboard";
+import Certification from "./Components/Certification";
 
 
 function App() {
@@ -41,6 +45,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Certification/>
     </div>
   );
 }

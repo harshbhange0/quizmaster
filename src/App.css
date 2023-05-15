@@ -47,3 +47,12 @@
     width: 70%;
 
 }
+
+/* certification css start */
+.back-color {
+    background-color: #e4d8fd;
+  }
+  .width-in-rem{
+    width: 18rem;
+  }
+/* certification css end */
