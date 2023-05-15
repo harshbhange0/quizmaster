@@ -8,10 +8,6 @@
    object-fit: cover;
 }
 
-.signup-container{
-    margin-top: 30px;
-}
-
 .signup-btn{
     background-color:#cc66ff;
 }
@@ -22,17 +18,5 @@
 .pass{
     text-decoration: none;
     color: black;
-}
-
-.fl-input{
-    width: 182px;
-    height: 40px;
-    border-radius: 7px;
-}
-
-.up-input{
-    width: 440px;
-    height: 40px;
-    border-radius: 7px;
 }
 
