@@ -1,14 +1,14 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar";
 
 
 
 
 import "./App.css";
-import SideBarSection from "./Components/SideBar";
-import QuestionSection from "./Components/QuestionSection";
-import Scoreboard from "./Components/Scoreboard";
-import Certification from "./Components/Certification";
+import SideBarSection from "./components/SideBar";
+import QuestionSection from "./components/QuestionSection";
+import Scoreboard from "./components/Scoreboard";
+import Certification from "./components/Certification";
 
 
 function App() {
