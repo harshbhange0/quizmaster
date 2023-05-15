@@ -1,14 +1,14 @@
-const PyLanguage =[
+export const PyLanguage =[
     {
         question: "Who developed Python Programming Language?",
 
         ans: 3,
 
         option:[
-            "A)Wick van Rossum",
-            "B)Rasmus Lerdorf",
-            "c) Guido van Rossum",
-            "d) Niene Stom"
+            " Wick van Rossum",
+            " Rasmus Lerdorf",
+            "  Guido van Rossum",
+            "  Niene Stom"
 
         ],
     },
@@ -20,10 +20,10 @@ const PyLanguage =[
     ans: 3,
 
     option:[
-        "a) .python",
-        "b) .pl",
-        "c) .py",
-        "d) .p",
+        "  .python",
+        "  .pl",
+        "  .py",
+        "  .p",
     ],
 },
 
@@ -34,10 +34,10 @@ const PyLanguage =[
     ans: 4,
 
     option:[
-        "a)  object-oriented programming",
-        "b) structured programming",
-        "c) functional programming",
-        "d) all of the mentioned",
+        "   object-oriented programming",
+        "  structured programming",
+        "  functional programming",
+        "  all of the mentioned",
     ],
 },
 
@@ -48,10 +48,10 @@ const PyLanguage =[
     ans: 4,
 
     option:[
-        "a)  ()",
-        "b) []",
-        "c) {}",
-        "d) set()",
+        "   ()",
+        "  []",
+        "  {}",
+        "  set()",
     ],
 },
 
@@ -62,10 +62,10 @@ const PyLanguage =[
     ans: 2,
 
     option:[
-        "a)  //",
-        "b) #",
-        "c) !",
-        "d) /*",
+        "   //",
+        "  #",
+        "  !",
+        "  /*",
     ],
 },
 
@@ -75,10 +75,10 @@ const PyLanguage =[
     ans: "A",
 
     option:[
-        "a) Identation",
-        "b) Key",
-        "c) Brackets",
-        "d) All of the mentioned",
+        "  Identation",
+        "  Key",
+        "  Brackets",
+        "  All of the mentioned",
     ],
 },
 
@@ -89,10 +89,10 @@ const PyLanguage =[
     ans: 2,
 
     option:[
-        "a) factorial()",
-        "b) print()",
-        "c) speed()",
-        "d) sqrt()",
+        "  factorial()",
+        "  print()",
+        "  speed()",
+        "  sqrt()",
     ],
 },
 
@@ -103,10 +103,10 @@ const PyLanguage =[
     ans: 2,
 
     option:[
-        "a) pass",
-        "b)eval",
-        "c) assert",
-        "d) nonlocal",
+        "  pass",
+        " eval",
+        "  assert",
+        "  nonlocal",
     ],
 },
 
@@ -117,10 +117,10 @@ const PyLanguage =[
     ans: 3,
 
     option:[
-        "a) Pip installs python",
-        "b) pip installs package",
-        "c) preferred installer program",
-        "d) all of the mention",
+        "  Pip installs python",
+        "  pip installs package",
+        "  preferred installer program",
+        "  all of the mention",
     ],
 },
 
@@ -131,10 +131,10 @@ const PyLanguage =[
     ans: 4,
    
     option:[
-        "a) sys.version(1)",
-        "b) sys.version(0)",
-        "c) sys.version(2)",
-        "d) sys.version",
+        "  sys.version(1)",
+        "  sys.version(0)",
+        "  sys.version(2)",
+        "  sys.version",
     ],
 },
 ];

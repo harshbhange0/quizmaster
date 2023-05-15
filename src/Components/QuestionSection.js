@@ -1,24 +1,39 @@
 import React from "react";
+import { useState } from "react";
+import { PyLanguage } from "./question/PyQuestion";
 
-import { jsLanguage } from "./question/JsQuestion";
 
 function QuestionSection() {
+const [queIndex, setQueIndex]=useState(0)
+ function changeQue() {
+  if(queIndex<PyLanguage.length-1){
+    setQueIndex(queIndex+1)
+    console.log(queIndex);
+  }else{}
+}
+ function priQue(){
+  if (queIndex > 0){
+    setQueIndex(queIndex-1)
+  }else{}
+ }
+
+
   return (
-    <div className="container-fluid p-5 ">
+    <div className="container-fluid mt-5 p-5 rounded question-sction">
       <div className="row">
         <div className="col-12">
-          <div className=" my-4 w-100 question-sction">
+          <div className="mb-5">
             <span className="d-block fs-2  w-100 text-center">
-              {jsLanguage[0].question}
+           {queIndex+1}. {PyLanguage[queIndex].question}
             </span>
           </div>
         </div>
         <div className="col-12">
           <div className="w-100 d-flex flex-column justify-content-center align-items-center">
-            {jsLanguage[0].option.map((option, i) => {
+            {PyLanguage[queIndex].option.map((option, i) => {
               return (
-                <button className="btn w-50 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2">
-                  {option}
+                <button className="btn position-relative w-75 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2">
+                  <span className=" position-absolute que-number" >{i+1}. </span>{option}
                 </button>
               );
             })}
@@ -26,9 +41,12 @@ function QuestionSection() {
         </div>
       </div>
 
-      <div className="nextBtn mt-5 justify-content-center w-100">
-        <button className="nextbtn shadow-sm d-block mx-auto p-2 rounded-2 w-75">
-          Next
+      <div className="d-flex mt-5 justify-content-center w-100">
+        <button className="btn priv-btn shadow-sm d-block mx-auto p-2 rounded-2 w-25" onClick={priQue}>
+          Priv
+        </button>
+        <button className="btn next-btn shadow-sm d-block mx-auto p-2 rounded-2 w-25" onClick={changeQue} >
+          Save & Next
         </button>
       </div>
     </div>

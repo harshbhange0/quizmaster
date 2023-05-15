@@ -1,11 +1,17 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar";
 
+
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 17fd8a7d37c2c07fd106c5518b82c329ba0d6085
 import "./App.css";
-
-import Offcanvas from "./Components/Offcanvas";
-import SideBarSection from "./Components/SideBar";
-import QuestionSection from "./Components/QuestionSection";
+import SideBarSection from "./components/SideBar";
+import QuestionSection from "./components/QuestionSection";
+import Scoreboard from "./components/Scoreboard";
+import Certification from "./components/Certification";
 
 
 function App() {
@@ -24,7 +30,15 @@ function App() {
           <div className="col-12 col-sm-12 col-md-9 ">
             <div className="row">
               <div className="col-12">
-                {/* this section score board and language name and icon */}
+              <div className="container-fluid">
+                <div className="row">
+                  <div className="col-4">
+                  <Scoreboard/>
+                  </div>
+                  <div className="col-8"></div>
+                </div>
+              </div>
+              
               </div>
               <div className="col-12">
                 {/* this section question  */}
@@ -34,6 +48,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Certification/>
     </div>
   );
 }
