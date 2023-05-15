@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
 import './App.css'
+import Footer from "./Components/question/footer";
+
 
 
 function App() {
