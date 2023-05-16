@@ -5,7 +5,8 @@ import SideBarSection from "./Components/SideBar";
 import QuestionSection from "./Components/QuestionSection";
 import Footer from "./Components/Footer";
 
-import Certification from "./Components/Certification";
+
+// import Certification from "./Components/Certification";
 
 function App() {
   return (
