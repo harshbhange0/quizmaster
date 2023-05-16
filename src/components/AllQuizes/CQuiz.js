@@ -56,7 +56,7 @@ function CQuiz() {
             <div className="col-12">
               <div className="mb-5">
                 <span className="d-block fs-2  w-100 text-center">
-                  {queIndex + 1}. {CQuestion[queIndex].question}
+                  {queIndex + 1}.{CQuestion[queIndex].question}
                 </span>
               </div>
             </div>

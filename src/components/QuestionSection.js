@@ -1,8 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import { AddArray  } from "./question/AddArray ";
+// import { AddArray  } from "./question/AddArray ";
 import Scoreboard from "./Scoreboard";
 import CLangSvg from "./langIconData/CLangSvg";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function QuestionSection() {
   const [queIndex, setQueIndex] = useState(0);
@@ -37,6 +39,9 @@ function QuestionSection() {
 
   return (
     <div>
+      <div className="top-navbar">
+        <Navbar/>
+      </div>
       <div className="container">
         <div className="score-section d-flex">
           <Scoreboard
@@ -97,6 +102,9 @@ function QuestionSection() {
             Save & Next
           </button>
         </div>
+      </div>
+      <div className="Footer">
+        <Footer/>
       </div>
     </div>
   );
