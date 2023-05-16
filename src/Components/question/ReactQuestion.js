@@ -12,15 +12,15 @@ export const Reactjs = [
     },
 
     {
-        question: "",
-        options: ["", "", "", ""],
-        ans: 
+        question: "Which of the following is the correct name of React.js?",
+        options: ["React", "React.js", "ReactJS", "All of the above"],
+        ans: 3
     },
 
     {
-        question: "",
-        options: ["", "", "", ""],
-        ans: 
+        question: "In which language is React.js written?",
+        options: ["Python", "Java", "JAvascript", "PHP"],
+        ans: 2
     },
 
     {
