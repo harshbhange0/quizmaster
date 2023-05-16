@@ -4,9 +4,9 @@ import Arrowsvg from "./img/Arrowsvg";
 function SideBarSection() {
   return (
     <div className="SidebarLink  w-100 d-flex  mt-2 thin-scrollbar">
-     <div className="w-100 list-group">
+      <div className="w-100 list-group">
         <a
-          class="list-group-item d-flex justify-content-between align-items-center w-100 my-2 rounded-1 fs-6 list-group-item-action "
+          class="list-group-item d-flex justify-content-between align-items-center border w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
           href="/"
         >
@@ -17,7 +17,7 @@ function SideBarSection() {
         </a>
 
         <a
-          class="list-group-item d-flex justify-content-between align-items-center w-100 my-2 rounded-1 fs-6 list-group-item-action "
+          class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
           href="/"
         >
@@ -28,7 +28,7 @@ function SideBarSection() {
         </a>
 
         <a
-          class="list-group-item d-flex justify-content-between align-items-center w-100 my-2 rounded-1 fs-6 list-group-item-action "
+          class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
           href="/"
         >
@@ -39,7 +39,7 @@ function SideBarSection() {
         </a>
 
         <a
-          class="list-group-item d-flex justify-content-between align-items-center w-100 my-2 rounded-1 fs-6 list-group-item-action "
+          class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
           href="/"
         >
@@ -50,7 +50,7 @@ function SideBarSection() {
         </a>
 
         <a
-          class="list-group-item d-flex justify-content-between align-items-center w-100 my-2 rounded-1 fs-6 list-group-item-action "
+          class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
           href="/"
         >
@@ -61,7 +61,7 @@ function SideBarSection() {
         </a>
 
         <a
-          class="list-group-item d-flex justify-content-between align-items-center w-100 my-2 rounded-1 fs-6 list-group-item-action "
+          class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
           href="/"
         >
@@ -72,7 +72,7 @@ function SideBarSection() {
         </a>
 
         <a
-          class="list-group-item d-flex justify-content-between align-items-center w-100 my-2 rounded-1 fs-6 list-group-item-action "
+          class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
           href="/"
         >
@@ -81,7 +81,17 @@ function SideBarSection() {
             <Arrowsvg IconWidth="20" />
           </span>
         </a>
-        </div>
+        <a
+          class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
+          id=""
+          href="/"
+        >
+          <span className="d-block"> BOOTSTRAP QUIZ</span>
+          <span className="d-block">
+            <Arrowsvg IconWidth="20" />
+          </span>
+        </a>
+      </div>
     </div>
   );
 }

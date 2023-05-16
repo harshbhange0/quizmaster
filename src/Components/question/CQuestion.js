@@ -22,13 +22,13 @@ export const CQuestion = [
   },
   {
     question: "How do you access the first element of an array in C?",
-    ans: 2,
+    ans: 3,
     option: ["arr[1]", "arr[-1]", "arr[0]", "arr[first]"],
   },
   {
     question:
       "What is the format specifier to print a floating-point number in C?",
-    ans: 0,
+    ans: 1,
     option: ["%f", "%s", "%c", "%d"],
   },
   {
@@ -44,13 +44,13 @@ export const CQuestion = [
   },
   {
     question: "How do you exit a loop prematurely in C?",
-    ans: 1,
+    ans: 2,
     option: ["continue", "break", "exit", "return"],
   },
   {
     question:
       "Which of the following statements is true about arrays in C language?",
-    ans: 0,
+    ans: 1,
     option: [
       "The array size must be known at compile time",
       "The array size can be changed during runtime",
