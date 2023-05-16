@@ -48,14 +48,14 @@ export const Reactjs = [
     },
 
     {
-        question: "",
-        options: ["", "", "", ""],
-        ans: 
+        question: "Which of the following function is used to change the state of react component?",
+        options: ["this.setState()", "this.state()", "this.setChangeState()", "None of Above"],
+        ans: 0
     },
 
     {
-        question: "",
-        options: ["", "", "", ""],
-        ans: 
+        question: "What is the use of the create-react-app command in the React.js application?",
+        options: ["It is used to update a React app.", "It is used to create a new React app.", "It is used to install dependencies.", "None of the above."],
+        ans: 1
     },
 ]
