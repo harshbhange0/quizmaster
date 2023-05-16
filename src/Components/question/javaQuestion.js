@@ -59,6 +59,6 @@ const javaLanguage =[
         ans: 4
       },
       
-    ];
+    ]; 
    
-    console.log(javaLanguage.question)
+    

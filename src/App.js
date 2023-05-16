@@ -3,9 +3,7 @@ import Navbar from "./Components/Navbar";
 import "./App.css";
 import SideBarSection from "./Components/SideBar";
 import QuestionSection from "./Components/QuestionSection";
-import Scoreboard from "./Components/Scoreboard";
-import Certification from "./Components/Certification";
-import Footer from "./Components/question/Footer";
+import Footer from "./Components/Footer";
 
 import Certification from "./Components/Certification";
 
@@ -28,10 +26,11 @@ function App() {
           </div>
         </div>
       </div>
-< HEAD
-      <Certification/>
-        <Footer/>
-      <Certification />
+
+    
+        
+      
+      <Footer/>
 
     </div>
   );

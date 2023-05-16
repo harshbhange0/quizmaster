@@ -9,3 +9,10 @@
          justify-content: space-between;
          margin: 0.2rem;
         }
+     
+        .dev-link:hover{
+               color: rgb(218, 203, 188) !important;
+               transition: ease-in .10s !important;
+        }
+
+        
