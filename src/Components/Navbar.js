@@ -1,4 +1,5 @@
 import React from "react";
+import LogoApp from "./img/logo.png"
 import Offcanvas from "./Offcanvas";
 
 function Navbar() {
@@ -10,6 +11,7 @@ function Navbar() {
             <Offcanvas/>
           </div>
           <a className="navbar-brand" href="/">
+            <img src={LogoApp} className=" rounded-1 me-2 app-logo" alt="App logo" />
             Quiz Master
           </a>
           <button
