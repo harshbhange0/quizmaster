@@ -1,16 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 
-
-
-
 import "./App.css";
 import SideBarSection from "./components/SideBar";
 import QuestionSection from "./components/QuestionSection";
 import Scoreboard from "./components/Scoreboard";
 import Certification from "./components/Certification";
 
-import Certification from "./Components/Certification";
+
+// import Certification from "./Components/Certification";
 
 function App() {
   return (
@@ -25,6 +23,7 @@ function App() {
               <SideBarSection />
             </div>
           </div>
+
           <div className="col-12 col-sm-12 col-md-9 ">
             <div className="row">
               <div className="col-12">
@@ -43,6 +42,11 @@ function App() {
                 <QuestionSection />
               </div>
             </div>
+
+          <div className="col-12 col-sm-12 col-md-9 question-section-holder ">
+            {/* this section question  */}
+            <QuestionSection />
+
           </div>
         </div>
       </div>

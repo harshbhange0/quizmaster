@@ -1,6 +1,10 @@
 .modify-navbar{
     background-color: #e4d8fd;
 }
+.app-logo{
+    width: 40px;    
+    border: .01rem solid #aa80ff;
+}
 .offcanvas-btn{
     background-color: #e4d8fd;
 
@@ -43,10 +47,17 @@
     left: 10px;
 }
 .question-sction{
-    border: .01rem solid #ccc;
-    width: 70%;
-
+    border: .01rem solid #e9e2fb;
+    width: 80%;
 }
+@media ((max-width: 576px)){
+    .question-sction {width: 100%;}
+}
+@media ((max-width: 796px)){
+    .question-sction {width: 100%;}
+}
+
+
 
 /* certification css start */
 .back-color {
