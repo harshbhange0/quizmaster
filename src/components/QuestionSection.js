@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { (add Array ) } from "./question/(add Array )";
+import { AddArray  } from "./question/AddArray ";
 import Scoreboard from "./Scoreboard";
 import CLangSvg from "./langIconData/CLangSvg";
 
@@ -10,7 +10,7 @@ function QuestionSection() {
   const [trackClick, SetTrackClick] = useState(0);
 
   function changeQue() {
-    if (queIndex < (add Array ).length - 1) {
+    if (queIndex < AddArray .length - 1) {
       setQueIndex(queIndex + 1);
       updateScore();
     } else {
@@ -28,10 +28,10 @@ function QuestionSection() {
   const [changeScore, setChangeScore] = useState(0);
 
   function updateScore() {
-    if (trackClick === (add Array )[queIndex].ans) {
+    if (trackClick === AddArray [queIndex].ans) {
       setChangeScore(changeScore + 1);
     } else {
-      console.log((add Array )[queIndex].ans);
+      console.log(AddArray [queIndex].ans);
     }
   }
 
@@ -40,7 +40,7 @@ function QuestionSection() {
       <div className="container">
         <div className="score-section d-flex">
           <Scoreboard
-            allQuestion={(add Array ).length}
+            allQuestion={AddArray .length}
             nowScore={changeScore}
           />
           <>
@@ -58,13 +58,13 @@ function QuestionSection() {
           <div className="col-12">
             <div className="mb-5">
               <span className="d-block fs-2  w-100 text-center">
-                {queIndex + 1}. {(add Array )[queIndex].question}
+                {queIndex + 1}. {AddArray [queIndex].question}
               </span>
             </div>
           </div>
           <div className="col-12">
             <div className="w-100 d-flex flex-column justify-content-center align-items-center">
-              {(add Array )[queIndex].option.map((option, i) => {
+              {AddArray [queIndex].option.map((option, i) => {
                 return (
                   <button
                     className="btn position-relative w-75 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2"
