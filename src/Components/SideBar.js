@@ -65,7 +65,7 @@ function SideBarSection() {
           id=""
           href="/"
         >
-          <span className="d-block"> REACTJS QUIZ</span>
+          <span className="d-block"> REACT QUIZ</span>
           <span className="d-block">
             <Arrowsvg IconWidth="20" />
           </span>
@@ -77,17 +77,6 @@ function SideBarSection() {
           href="/"
         >
           <span className="d-block"> NODEJS QUIZ</span>
-          <span className="d-block">
-            <Arrowsvg IconWidth="20" />
-          </span>
-        </a> 
-
-        <a
-          class="list-group-item d-flex justify-content-between align-items-center w-100 my-2 rounded-1 fs-6 list-group-item-action "
-          id=""
-          href="/"
-        >
-          <span className="d-block"> BOOTSTRAP QUIZ</span>
           <span className="d-block">
             <Arrowsvg IconWidth="20" />
           </span>
