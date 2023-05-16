@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { JsQuestion } from "../question/JsQuestion";
 import Scoreboard from "../Scoreboard";
-import CLangSvg from "../langIconData/JsSvg";
+import JsSvg from "../langIconData/JsSvg";
 
 function JsQuiz() {
   const [queIndex, setQueIndex] = useState(0);
@@ -44,7 +44,7 @@ function JsQuiz() {
             <>
               <div className="d-flex m-2 w-100 rounded border justify-content-center align-items-center">
                 <span className="svg d-block mx-2 p-1">
-                  <CLangSvg width="60" />
+                  <JsSvg width="60" />
                 </span>
                 <span className="name d-block mx-2 fs-2 "> Javascript Language</span>
               </div>
