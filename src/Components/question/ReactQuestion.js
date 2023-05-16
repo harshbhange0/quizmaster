@@ -24,15 +24,15 @@ export const Reactjs = [
     },
 
     {
-        question: "",
-        options: ["", "", "", ""],
-        ans: 
+        question: "What is ReactJS mainly used for building?",
+        options: ["Database", "Connectivity", "User interface", "Design platform"],
+        ans: 2
     },
 
     {
-        question: "",
-        options: ["", "", "", ""],
-        ans: 
+        question: "How many elements can a valid react component return?",
+        options: ["1", "2", "3", "4"],
+        ans: 0
     },
 
     {
