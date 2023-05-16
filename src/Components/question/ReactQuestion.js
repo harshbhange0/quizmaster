@@ -36,15 +36,15 @@ export const Reactjs = [
     },
 
     {
-        question: "",
-        options: ["", "", "", ""],
-        ans: 
+        question: "What are arbitrary inputs of components in react also known as?",
+        options: ["Elements", "Props", "Keys", "Ref"],
+        ans: 1
     },
 
     {
-        question: "",
-        options: ["", "", "", ""],
-        ans: 
+        question: "Identify the smallest building block of React.JS.",
+        options: ["Props", "Elements", "Components", "None of Above"],
+        ans: 2
     },
 
     {
