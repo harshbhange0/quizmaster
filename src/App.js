@@ -6,6 +6,7 @@ import SideBarSection from "./Components/SideBar";
 import QuestionSection from "./Components/QuestionSection";
 import Certification from "./Components/Certification";
 import Scoreboard from "./Components/Scoreboard";
+import Signup from "./Components/Signup";
 
 
 // import Certification from "./Components/Certification";
@@ -52,6 +53,7 @@ function App() {
           </div>
         </div>
         <Certification />
+        <Signup/>
       </div>
     </div>
   );
