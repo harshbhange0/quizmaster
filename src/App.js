@@ -1,9 +1,17 @@
 import React from "react";
 import Navbar from "./Components/Navbar";
+<<<<<<< HEAD
 
 import "./App.css";
 import SideBarSection from "./Components/SideBar";
 import QuestionSection from "./Components/QuestionSection";
+=======
+import "./App.css";
+import SideBarSection from "./Components/SideBar";
+import QuestionSection from "./Components/QuestionSection";
+import Footer from "./Components/Footer";
+
+>>>>>>> c00f17dd3b79245c165d5aeb9a9fb2b6445f3921
 import Certification from "./Components/Certification";
 
 function App() {
@@ -25,7 +33,12 @@ function App() {
           </div>
         </div>
       </div>
-      <Certification />
+
+    
+        
+      
+      <Footer/>
+
     </div>
   );
 }
