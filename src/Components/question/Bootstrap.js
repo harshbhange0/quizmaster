@@ -58,4 +58,12 @@ export const CQuestion = [
         "The .well-sm class is for small wells, and the .well-lg class is for large wells. And both classes should be used in conjunction with .well class.",
       ],
     },
+    {
+        question:
+        "How many columns are allowed in a bootstrap grid system?",
+        ans: 2,
+        option:[
+            "2", "12", "3", "5"
+        ],
+    }
   ];
