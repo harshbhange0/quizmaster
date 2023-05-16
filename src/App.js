@@ -7,6 +7,7 @@ import Scoreboard from "./Components/Scoreboard";
 import Certification from "./Components/Certification";
 import Footer from "./Components/question/Footer";
 
+import Certification from "./Components/Certification";
 
 function App() {
   return (
@@ -22,28 +23,16 @@ function App() {
             </div>
           </div>
           <div className="col-12 col-sm-12 col-md-9 ">
-            <div className="row">
-              <div className="col-12">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-4">
-                  <Scoreboard/>
-                  </div>
-                  <div className="col-8"></div>
-                </div>
-              </div>
-              
-              </div>
-              <div className="col-12">
-                {/* this section question  */}
-                <QuestionSection />
-              </div>
-            </div>
+            {/* this section question  */}
+            <QuestionSection />
           </div>
         </div>
       </div>
+< HEAD
       <Certification/>
         <Footer/>
+      <Certification />
+
     </div>
   );
 }
