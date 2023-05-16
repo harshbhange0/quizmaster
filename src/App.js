@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 
 import "./App.css";
-import SideBarSection from "./components/SideBar";
-import QuestionSection from "./components/QuestionSection";
-import Scoreboard from "./components/Scoreboard";
-import Certification from "./components/Certification";
+import SideBarSection from "./Components/SideBar";
+import QuestionSection from "./Components/QuestionSection";
+import Certification from "./Components/Certification";
+import Scoreboard from "./Components/Scoreboard";
 
 
 // import Certification from "./Components/Certification";
@@ -28,15 +28,15 @@ function App() {
           <div className="col-12 col-sm-12 col-md-9 ">
             <div className="row">
               <div className="col-12">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-4">
-                  <Scoreboard/>
+                <div className="container-fluid">
+                  <div className="row">
+                    <div className="col-4">
+                      <Scoreboard />
+                    </div>
+                    <div className="col-8"></div>
                   </div>
-                  <div className="col-8"></div>
                 </div>
-              </div>
-              
+
               </div>
               <div className="col-12">
                 {/* this section question  */}
@@ -44,17 +44,17 @@ function App() {
               </div>
             </div>
 
-          <div className="col-12 col-sm-12 col-md-9 question-section-holder ">
-            {/* this section question  */}
-            <QuestionSection />
+            <div className="col-12 col-sm-12 col-md-9 question-section-holder ">
+              {/* this section question  */}
+              <QuestionSection />
 
+            </div>
           </div>
         </div>
+        <Certification />
       </div>
-      <Certification/>
     </div>
-    
   );
 }
 
-export default App;
+export default App

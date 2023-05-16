@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from './Navbar'
 import cerf from './img/cerf.png'
 import harshCertificate from './img/harshCert.png'
 import ruchikaCertificate from './img/ruchikaCert.png'
@@ -26,36 +25,36 @@ function Certification() {
         </div>
       </div>
       <h2 className="text-lg-center text-md-center mt-5">Recent students Who Completed their Quizz</h2>
-    <div className="row">
-      <div className="col col-md-4">
-        <div className="card m-auto my-5  shadow width-in-rem " >
-          <img src={harshCertificate} className="card-img-top" alt="..."/>
-          <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+      <div className="row">
+        <div className="col col-md-4">
+          <div className="card m-auto my-5  shadow width-in-rem " >
+            <img src={harshCertificate} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="col col-md-4">
-        <div className="card m-auto my-5  shadow width-in-rem " >
-          <img src={nikitaCertificate} className="card-img-top" alt="..."/>
-          <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+        <div className="col col-md-4">
+          <div className="card m-auto my-5  shadow width-in-rem " >
+            <img src={nikitaCertificate} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div className="col col-md-4">
-        <div className="card m-auto my-5 shadow  width-in-rem">
-          <img src={ruchikaCertificate} className="card-img-top" alt="..."/>
-          <div className="card-body">
-            <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-              content.</p>
+        <div className="col col-md-4">
+          <div className="card m-auto my-5 shadow  width-in-rem">
+            <img src={ruchikaCertificate} className="card-img-top" alt="..." />
+            <div className="card-body">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
           </div>
         </div>
-      </div>
 
-    </div>
+      </div>
 
 
 
