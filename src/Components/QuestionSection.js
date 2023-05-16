@@ -1,38 +1,73 @@
 import React from "react";
 import { useState } from "react";
-import { PyLanguage } from "./question/PyQuestion";
+import { CQuestion } from "./question/CQuestion";
+import Scoreboard from "./Scoreboard";
 
 
 function QuestionSection() {
-const [queIndex, setQueIndex]=useState(0)
+const [queIndex, setQueIndex]=useState(0);
+
+const [trackClick,SetTrackClick]=useState(0);
+
+
  function changeQue() {
-  if(queIndex<PyLanguage.length-1){
+  if(queIndex<CQuestion.length-1){
     setQueIndex(queIndex+1)
-    console.log(queIndex);
-  }else{}
+    updateScore()}
+    else{
+      return
+    }
+    
 }
+
  function priQue(){
   if (queIndex > 0){
     setQueIndex(queIndex-1)
-  }else{}
+  }else{
+   return 
+  }
+ }
+const [changeScore,setChangeScore]=useState(0)
+
+ function updateScore(){
+  if(trackClick===CQuestion[queIndex].ans){
+    setChangeScore(changeScore+1)
+  }else{
+    console.log( CQuestion[queIndex].ans)
+    
+  }
  }
 
 
+
   return (
+    <div>
+      <div className="container">
+        <div className="score-section">
+          <Scoreboard
+          allQuestion={CQuestion.length}
+           nowScore={changeScore}
+          />
+        </div>
+      </div>
     <div className="container-fluid mt-5 p-5 rounded question-sction">
       <div className="row">
         <div className="col-12">
           <div className="mb-5">
             <span className="d-block fs-2  w-100 text-center">
-           {queIndex+1}. {PyLanguage[queIndex].question}
+           {queIndex+1}. {CQuestion[queIndex].question}
             </span>
           </div>
         </div>
         <div className="col-12">
           <div className="w-100 d-flex flex-column justify-content-center align-items-center">
-            {PyLanguage[queIndex].option.map((option, i) => {
+            {CQuestion[queIndex].option.map((option, i) => {
               return (
-                <button className="btn position-relative w-75 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2">
+                <button className="btn position-relative w-75 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2"
+                onClick={ function trackScore(){
+                  SetTrackClick(i+1)
+                 }}
+                >
                   <span className=" position-absolute que-number" >{i+1}. </span>{option}
                 </button>
               );
@@ -49,6 +84,7 @@ const [queIndex, setQueIndex]=useState(0)
           Save & Next
         </button>
       </div>
+    </div>
     </div>
   );
 }

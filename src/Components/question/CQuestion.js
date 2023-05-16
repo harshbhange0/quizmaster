@@ -1,7 +1,7 @@
 export const CQuestion = [
   {
     question:
-      "Which symbol is used for the modulus operator in C?Which symbol is used for the modulus operator in C?",
+      "Which symbol is used for the modulus operator in C?",
     ans: 1,
     option: ["%", "#", "$", "&"],
   },
