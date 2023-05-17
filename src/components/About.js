@@ -7,17 +7,17 @@ function About({ title, imageUrl, body,imageUrl1,imageUrl2,imageUrl3,imageUrl4  
     <div className='top-navbar'>
         
     </div>
-      <div className="card-container">
-          <div className="image-container">
+      <div className="about-card">
+          <div className="about-image">
               <img src={imageUrl} alt=""/>
           </div>
-          <div className="card-content">
+          <div className="about-card-content">
               
           </div>
-          <div className="card-title">
+          <div className="about-card-title">
               <h3>{title}</h3>
           </div>
-          <div className="card-body">
+          <div className="about-card-body">
               <p>{body}</p>
           </div>
           <div className="conatiner">
