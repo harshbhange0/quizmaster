@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { CQuestion } from "../question/CQuestion";
 import Scoreboard from "../Scoreboard";
-import BootstrapLangSvg from "../langIconData/BootstrapLangSvg";
+import BootstrapLangSvg from "../langIconData/BootstrapSvg.js";
 
 function BootstrapQuiz() {
   const [queIndex, setQueIndex] = useState(0);
