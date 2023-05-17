@@ -1,56 +1,49 @@
 import React from "react";
-import Navbar from "./components/Navbar";
 
 import "./App.css";
-import SideBarSection from "./components/SideBar";
-import QuestionSection from "./components/QuestionSection";
-import Scoreboard from "./components/Scoreboard";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import About from "./components/About";
+import Login from "./components/Login";
+import Signup from "./components/Signup";
 import Certification from "./components/Certification";
+import QuizSection from "./components/QuizSection";
 
 
-// import Certification from "./Components/Certification";
+import HtmlQuiz from "./components/AllQuizes/HtmlQuiz"
+import CssQuiz from "./components/AllQuizes/CssQuiz"
+import CQuiz from "./components/AllQuizes/CQuiz"
+import JavaQuiz from "./components/AllQuizes/JavaQuiz"
+import JsQuiz from "./components/AllQuizes/JsQuiz"
+import NodeJsQuize from "./components/AllQuizes/NodeJsQuiz"
+import ReactQuiz from "./components/AllQuizes/ReactQuiz"
+import PythonQuiz from "./components/AllQuizes/PythonQuiz"
+import BootstrapQuiz from "./components/AllQuizes/BootstrapQuiz"
 
 function App() {
   return (
-    <div className="App ">
-      <div className="top-navbar">
-        <Navbar />
-      </div>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="d-none side-Sction-Holder d-sm-none border-end d-md-flex col-md-3">
-            <div className="  d-none d-sm-none d-md-flex flex-column  h-100 w-100 p-4">
-              <SideBarSection />
-            </div>
-          </div>
+    <div className="App">
+  <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home/>}></Route>
+    <Route path="/about" element={<About/>}></Route>
+    <Route path="/login" element={<Login/>}></Route>
+    <Route path="/singup" element={<Signup/>}></Route>
+    <Route path="/certification" element={<Certification/>}></Route>
+    <Route path="/quizsection" element={<QuizSection/>}></Route>
 
-          <div className="col-12 col-sm-12 col-md-9 ">
-            <div className="row">
-              <div className="col-12">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-4">
-                  <Scoreboard/>
-                  </div>
-                  <div className="col-8"></div>
-                </div>
-              </div>
-              
-              </div>
-              <div className="col-12">
-                {/* this section question  */}
-                <QuestionSection />
-              </div>
-            </div>
 
-          <div className="col-12 col-sm-12 col-md-9 question-section-holder ">
-            {/* this section question  */}
-            <QuestionSection />
-
-          </div>
-        </div>
-      </div>
-      <Certification/>
+    <Route path="/quiz/html" element={<HtmlQuiz/>}></Route>
+    <Route path="/quiz/css" element={<CssQuiz/>}></Route>
+    <Route path="/quiz/c" element={<CQuiz/>}></Route>
+    <Route path="/quiz/java" element={<JavaQuiz/>}></Route>
+    <Route path="/quiz/js" element={<JsQuiz/>}></Route>
+    <Route path="/quiz/node" element={<NodeJsQuize/>}></Route>
+    <Route path="/quiz/python" element={<PythonQuiz/>}></Route>
+    <Route path="/quiz/react" element={<ReactQuiz/>}></Route>
+    <Route path="/quiz/bootstarp" element={<BootstrapQuiz/>}></Route>
+  </Routes>
+  </BrowserRouter>
     </div>
     </div>
   );
