@@ -1,20 +1,21 @@
 import React from "react";
 import Arrowsvg from "./img/Arrowsvg";
+import { Link } from "react-router-dom";
 
 function SideBarSection() {
   return (
     <div className="SidebarLink  w-100 d-flex  mt-2 thin-scrollbar">
       <div className="w-100 list-group">
-        <a
-          class="list-group-item d-flex justify-content-between align-items-center border w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
-          id=""
-          href="/"
-        >
+        <Link
+          class="list-group-item d-flex justify-content-between align-items-center border w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action " id=""
+          path="/quiz/html"
+          
+         >
           <span className="d-block"> HTML QUIZ</span>
           <span className="d-block ms-5">
             <Arrowsvg IconWidth="20" />
           </span>
-        </a>
+        </Link>
 
         <a
           class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "

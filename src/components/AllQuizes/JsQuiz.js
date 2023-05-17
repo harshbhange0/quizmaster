@@ -3,6 +3,8 @@ import { useState } from "react";
 import { JsQuestion } from "../question/JsQuestion";
 import Scoreboard from "../Scoreboard";
 import JsSvg from "../langIconData/JsSvg";
+import Navbar from "../Navbar";
+import Footer from "../Footer"
 
 function JsQuiz() {
   const [queIndex, setQueIndex] = useState(0);
@@ -38,7 +40,9 @@ function JsQuiz() {
   return (
     <div>
       <div>
+        <div classname="top-navbar"><Navbar/></div>
         <div className="container">
+
           <div className="score-section d-flex">
             <Scoreboard allQuestion={JsQuestion.length} nowScore={changeScore} />
             <>
@@ -96,6 +100,7 @@ function JsQuiz() {
             </button>
           </div>
         </div>
+        <div className="footer"><Footer/></div>
       </div>
     </div>
   );
