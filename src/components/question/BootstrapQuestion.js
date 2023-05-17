@@ -1,4 +1,4 @@
-export const CQuestion = [
+export const BootstrapQuestion = [
     {
       question:
         "Who developed the bootstrap?",
