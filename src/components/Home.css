@@ -9,6 +9,24 @@
     justify-content: space-around;
     flex-direction: row;
 }
+.Container2{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.home-heading2{
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: inset rgb(236, 153, 245);
+    box-shadow: 2px;
+}
 
 .home-heading{
     height: 300px;
@@ -25,6 +43,7 @@
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .Lang-img{
@@ -32,10 +51,12 @@
     margin-top: 10px;
     margin-left: 80px;
     margin-right: auto;
+    cursor: pointer;
 }
 
 .font{
     font-size: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    color: rgb(191, 0, 255);
 }
