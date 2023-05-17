@@ -10,8 +10,6 @@ import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Certification from "./components/Certification";
 import QuizSection from "./components/QuizSection";
-import Scoreboard from "./components/Scoreboard";
-import QuestionSection from "./components/QuestionSection";
 
 
 
@@ -51,35 +49,6 @@ function App() {
           </Routes >
         </BrowserRouter >
       </div>
-
-      <div>
-        <div className="col-12 col-sm-12 col-md-9 ">
-          <div className="row">
-            <div className="col-12">
-              <div className="container-fluid">
-                <div className="row">
-                  <div className="col-4">
-                    <Scoreboard />
-                  </div>
-                  <div className="col-8"></div>
-                </div>
-              </div>
-
-            </div>
-            <div className="col-12">
-              {/* this section question  */}
-              <QuestionSection />
-            </div>
-          </div>
-
-          <div className="col-12 col-sm-12 col-md-9 question-section-holder ">
-            {/* this section question  */}
-            <QuestionSection />
-
-          </div>
-        </div>
-      </div>
-      <Certification />
     </div>
   );
 }
