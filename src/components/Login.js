@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Login() {
     return (
-     
+
 
         <div className='container-fluid signup-container'>
             <div className='row'>
@@ -14,8 +14,9 @@ function Login() {
                         <img src={img} className='img-fluid d-block img' />
                     </div>
                 </div>
-                <div className='col-12 col-sm-12 col-md-6 p-0 d-flex align-items-center justify-content-center'>
-                    <div className='d-block w-75'>
+                <div className='col-12 col-sm-12 col-md-6 p-0 d-flex align-items-center justify-content-center overflow-y-hidden'>
+                    <div className='d-block w-75' data-aos="fade-up"
+                        data-aos-offset="1">
                         <div className='mb-5'>
                             <h3>Sign in to QuizMaster</h3>
                             <p>Enter your details below.</p>
@@ -28,7 +29,7 @@ function Login() {
                             <input type="password" class="form-control" id="floatingPassword" placeholder="Password" />
                             <label for="floatingPassword">Password</label>
                         </div>
-                        <div  className='mb-4 mt-2'>
+                        <div className='mb-4 mt-2'>
                             <a href="#" className='pass'>Forgot password?</a>
                         </div>
                         <div class="d-grid gap-2">
