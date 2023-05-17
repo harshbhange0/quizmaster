@@ -1,15 +1,11 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
+import Navbar from "./components/Navbar";
 
 import "./App.css";
-import SideBarSection from "./Components/SideBar";
-import QuestionSection from "./Components/QuestionSection";
-import Certification from "./Components/Certification";
-import Scoreboard from "./Components/Scoreboard";
-import Signup from "./Components/Signup";
-
-
-// import Certification from "./Components/Certification";
+import SideBarSection from "./components/SideBar";
+import QuestionSection from "./components/QuestionSection";
+import Certification from "./components/Certification";
+import Scoreboard from "./components/Scoreboard";
 
 
 function App() {
@@ -53,7 +49,6 @@ function App() {
           </div>
         </div>
         <Certification />
-        <Signup/>
       </div>
     </div>
   );

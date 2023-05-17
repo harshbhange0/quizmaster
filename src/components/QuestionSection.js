@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { useState } from "react";
 import { (add Array ) } from "./question/(add Array )";
 import Scoreboard from "./Scoreboard";
@@ -102,4 +102,4 @@ function QuestionSection() {
   );
 }
 
-export default QuestionSection;
+export default QuestionSection*/
