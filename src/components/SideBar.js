@@ -17,81 +17,81 @@ function SideBarSection() {
           </span>
         </Link>
 
-        <a
+        <Link
           class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
-          href="/"
+          path="/quiz/c"
         >
           <span className="d-block"> C QUIZ</span>
           <span className="d-block">
             <Arrowsvg IconWidth="20" />
           </span>
-        </a>
+        </Link>
 
-        <a
+        <Link
           class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
-          href="/"
+          path="/quiz/java"
         >
           <span className="d-block"> JAVA QUIZ</span>
           <span className="d-block">
             <Arrowsvg IconWidth="20" />
           </span>
-        </a>
+        </Link>
 
-        <a
+        <Link
           class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
-          href="/"
+          path="/quiz/python"
         >
           <span className="d-block"> PYTHON QUIZ</span>
           <span className="d-block">
             <Arrowsvg IconWidth="20" />
           </span>
-        </a>
+        </Link>
 
-        <a
+        <Link
           class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
-          href="/"
+          path="/quiz/js"
         >
           <span className="d-block"> JAVASCRIPT QUIZ</span>
           <span className="d-block">
             <Arrowsvg IconWidth="20" />
           </span>
-        </a>
+        </Link>
 
-        <a
+        <Link
           class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
-          href="/"
+          path="/quiz/react"
         >
           <span className="d-block"> REACT QUIZ</span>
           <span className="d-block">
             <Arrowsvg IconWidth="20" />
           </span>
-        </a>
+        </Link>
 
-        <a
+        <Link
           class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
-          href="/"
+          path="/quiz/node"
         >
           <span className="d-block"> NODEJS QUIZ</span>
           <span className="d-block">
             <Arrowsvg IconWidth="20" />
           </span>
-        </a>
-        <a
+        </Link>
+        <Link
           class="list-group-item d-flex justify-content-between align-items-center border  w-100 my-3 p-3    rounded-1 fs-6 list-group-item-action "
           id=""
-          href="/"
+          path="/quiz/bootstrap"
         >
           <span className="d-block"> BOOTSTRAP QUIZ</span>
           <span className="d-block">
             <Arrowsvg IconWidth="20" />
           </span>
-        </a>
+        </Link>
       </div>
     </div>
   );
