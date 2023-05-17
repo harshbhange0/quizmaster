@@ -11,7 +11,7 @@ function Signup() {
             <div className='row'>
                 <div className='col-12 col-sm-12 col-md-6 p-0'>
                     <div className='container-fluid h-100 p-0'>
-                        <img src={img} className='img-fluid d-block img' />
+                        <img src={img} alt="signup-img" className='img-fluid d-block img' />
                     </div>
                 </div>
                 <div className='col-12 col-sm-12 col-md-6 p-0 d-flex align-items-center justify-content-center'>
