@@ -3,6 +3,9 @@ import { useState } from "react";
 import { ReactQuestion } from "../question/ReactQuestion";
 import Scoreboard from "../Scoreboard";
 import ReactSvg from "../langIconData/ReactSvg";
+import SideBarSection from "../SideBar";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 function ReactQuiz() {
   const [queIndex, setQueIndex] = useState(0);
@@ -37,8 +40,21 @@ function ReactQuiz() {
 
   return (
     <div>
-      <div>
-        <div className="container">
+      <div className="QuizeSction">
+      <div className="top-navbar">
+        <Navbar />
+      </div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="d-none d-sm-none d-md-flex col-md-3 border border-bottom-0 side-Sction-Holder ">
+            <SideBarSection />
+          </div>
+          <div className="col-12 col-sm-12 col-md-9">
+            <div className="container">
+              <div className="row">
+                <div className="col-12 ">
+                  <div className="question-section-holder" />
+                  <div className="container">
           <div className="score-section d-flex">
             <Scoreboard allQuestion={ReactQuestion.length} nowScore={changeScore} />
             <>
@@ -46,7 +62,7 @@ function ReactQuiz() {
                 <span className="svg d-block mx-2 p-1">
                   <ReactSvg width="60" />
                 </span>
-                <span className="name d-block mx-2 fs-2 "> ReactJS </span>
+                <span className="name d-block mx-2 fs-2 ">React Js </span>
               </div>
             </>
           </div>
@@ -62,7 +78,7 @@ function ReactQuiz() {
             </div>
             <div className="col-12">
               <div className="w-100 d-flex flex-column justify-content-center align-items-center">
-                {ReactQuestion[queIndex].option.map((option, i) => {
+                {ReactQuestion[queIndex].options.map((option, i) => {
                   return (
                     <button
                       className="btn position-relative w-75 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2"
@@ -75,7 +91,7 @@ function ReactQuiz() {
                       </span>
                       {option}
                     </button>
-                  );
+                  );  
                 })}
               </div>
             </div>
@@ -86,7 +102,7 @@ function ReactQuiz() {
               className="btn priv-btn shadow-sm d-block mx-auto p-2 rounded-2 w-25"
               onClick={priQue}
             >
-              Priv
+              Prev
             </button>
             <button
               className="btn next-btn shadow-sm d-block mx-auto p-2 rounded-2 w-25"
@@ -96,7 +112,16 @@ function ReactQuiz() {
             </button>
           </div>
         </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="footer">
+                  <Footer/>
+                </div>
+        </div>
       </div>
+    </div>
     </div>
   );
 }

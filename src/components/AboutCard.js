@@ -20,9 +20,9 @@ function AboutCard({
 }) {
   return (
     <div
-      className="card m-3  shadow-sm"
+      className="card AboutCard m-5 p-3  rounded-3 "
       style={{
-        width: "20rem"
+        width: "24rem"
       }}
     >
       <img
@@ -33,38 +33,40 @@ function AboutCard({
       <div className="card-body mt-2">
         <h2 className="text-center">{AboutCardTitle}</h2>
 
-        <div className="card-footer my-1">
-          <div className="d-flex p-2 justify-content-center align-items-center">
-            <span className="d-block mx-1 p-2 border">
+        <div className="card-footer bg-transparent my-1">
+            <span className="d-block text-center">Skills</span>
+
+          <div className="d-flex justify-content-center align-items-center my-1">
+            <span className="d-block  mx-2 my-3 ">
               <img height="40px" alt="" src={Html} />
             </span>
-            <span className="d-block mx-1 p-2 border">
+            <span className="d-block  mx-2 my-3 ">
               <img height="40px" alt="" src={Css} />
             </span>
-            <span className="d-block mx-1 p-2 border">
+            <span className="d-block  mx-2 my-3 ">
               <img height="35px" alt="" src={Javascript} />
             </span>
-            <span className="d-block mx-1 p-2 border">
+            <span className="d-block  mx-2 my-3 ">
               <img height="30px" alt="" src={Bootstrap} />
             </span>
-            <span className="d-block mx-1 p-2 border">
+            <span className="d-block  mx-2 my-3 ">
               <img height="40px" alt="" src={Reactimg} />
             </span>
           </div>
-          <h5 className="text-center">Connect With Us</h5>
-          <div className="d-flex flx-wrap social-logo">
+          <h5 className="text-center m-2">Connect With Us</h5>
+          <div className="d-flex flx-wrap social-logo justify-content-around">
             <a href={linkedin} className="m-1 p-1 text-dark social-logo ">
-              <img src={linkdin} alt="" width="50px" />
+              <img src={linkdin} alt="" width="30px" />
             </a>
             <a href={Github} className="m-1 p-1 text-dark social-logo">
               {" "}
-              <img src={github} alt="" width="50px" />
+              <img src={github} alt="" width="30px" />
             </a>
             <a href={Gmail} className="m-1 p-1 text-dark social-logo">
-              <img src={Gmail} alt="" width="60px" />
+              <img src={Gmail} alt="" width="30px" />
             </a>
             <a href={Instagram} className="m-1 p-1 text-dark social-logo">
-              <img src={instagram} alt="" width="50px" />
+              <img src={instagram} alt="" width="30px" />
             </a>
           </div>
         </div>

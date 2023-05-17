@@ -1,8 +1,11 @@
-import React from "react";
+import React from 'react'
+import Navbar from '../Navbar'
+import SideBarSection from '../SideBar'
+import Scoreboard from '../Scoreboard';
+import BootstrapSvg from '../langIconData/BootstrapSvg';
+import Footer from '../Footer';
 import { useState } from "react";
 import { BootstrapQuestion } from "../question/BootstrapQuestion";
-import Scoreboard from "../Scoreboard";
-import BootstrapSvg from "../langIconData/BootstrapSvg.js";
 
 function BootstrapQuiz() {
   const [queIndex, setQueIndex] = useState(0);
@@ -36,9 +39,23 @@ function BootstrapQuiz() {
   }
 
   return (
-    <div>
-      <div>
-        <div className="container">
+    
+   <div>
+          <div className="QuizeSction">
+      <div className="top-navbar">
+        <Navbar />
+      </div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="d-none d-sm-none d-md-flex col-md-3 border border-bottom-0 side-Sction-Holder ">
+            <SideBarSection />
+          </div>
+          <div className="col-12 col-sm-12 col-md-9">
+            <div className="container">
+              <div className="row">
+                <div className="col-12 ">
+                  <div className="question-section-holder" />
+                  <div className="container">
           <div className="score-section d-flex">
             <Scoreboard allQuestion={BootstrapQuestion.length} nowScore={changeScore} />
             <>
@@ -46,7 +63,7 @@ function BootstrapQuiz() {
                 <span className="svg d-block mx-2 p-1">
                   <BootstrapSvg width="60" />
                 </span>
-                <span className="name d-block mx-2 fs-2 ">Bootstrap Language</span>
+                <span className="name d-block mx-2 fs-2 ">Bootstrap </span>
               </div>
             </>
           </div>
@@ -75,7 +92,7 @@ function BootstrapQuiz() {
                       </span>
                       {option}
                     </button>
-                  );
+                  );  
                 })}
               </div>
             </div>
@@ -96,8 +113,18 @@ function BootstrapQuiz() {
             </button>
           </div>
         </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="footer">
+                  <Footer/>
+                </div>
+        </div>
       </div>
     </div>
+   </div>
+
   );
 }
 

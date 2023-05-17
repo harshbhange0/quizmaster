@@ -1,7 +1,5 @@
 .profile-pick {
   object-fit: cover;
-
-  border-radius: 10px;
   height: 270px;
   width: 270px;
   margin-top: 20px;
@@ -9,13 +7,16 @@
   margin-left: auto;
   margin-right: auto;
 }
-.card {
-  border-radius: 25px;
-  box-shadow: 1px 2px 2px 3px #080217;
-  background-color: #e4d8fd;
+
+.About-Holder {
+  background: #f2eef9;
+}
+.AboutCard{
+    background-color: #ffffff;
 }
 
-.card:hover {
-  size: 27rem;
-  box-shadow: 2px 3px 3px 4px #e4d8fd;
+.AboutCard:hover{
+    transition: ease-in .10s;
+    box-shadow: 0 0 1rem #cfbdec !important;
 }
+

@@ -1,4 +1,4 @@
-/*import React from "react";
+import React from "react";
 import { useState } from "react";
 import { CQuestion  } from "./question/CQuestion";
 import Scoreboard from "./Scoreboard";
@@ -106,4 +106,4 @@ function QuestionSection() {
   );
 }
 
-export default QuestionSection*/
+export default QuestionSection
