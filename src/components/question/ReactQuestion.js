@@ -1,4 +1,4 @@
-export const Reactjs = [
+export const ReactQuestion = [
     {
         question: "Who created React.js?",
         options: ["Jorden mike", "Jorden walke", "Time Lee", "Jorden Lee"],

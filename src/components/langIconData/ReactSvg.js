@@ -9,7 +9,6 @@ function ReactSvg() {
       width="80"
       height="80"
       viewBox="0,0,255.98714,255.98714"
-      style="fill:#000000;"
     >
       <g
         fill="none"
@@ -25,7 +24,6 @@ function ReactSvg() {
         font-weight="none"
         font-size="none"
         text-anchor="none"
-        style="mix-blend-mode: normal"
       >
         <g transform="scale(3.2,3.2)">
           <path
