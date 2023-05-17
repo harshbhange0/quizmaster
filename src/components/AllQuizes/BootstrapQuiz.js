@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import { CQuestion } from "../question/CQuestion";
+import { BootstrapQuestion } from "../question/BootstrapQuestion";
 import Scoreboard from "../Scoreboard";
-import BootstrapLangSvg from "../langIconData/BootstrapSvg.js";
+import BootstrapSvg from "../langIconData/BootstrapSvg.js";
 
 function BootstrapQuiz() {
   const [queIndex, setQueIndex] = useState(0);
@@ -44,7 +44,7 @@ function BootstrapQuiz() {
             <>
               <div className="d-flex m-2 w-100 rounded border justify-content-center align-items-center">
                 <span className="svg d-block mx-2 p-1">
-                  <CLangSvg width="60" />
+                  <BootstrapSvg width="60" />
                 </span>
                 <span className="name d-block mx-2 fs-2 ">Bootstrap Language</span>
               </div>
@@ -62,7 +62,7 @@ function BootstrapQuiz() {
             </div>
             <div className="col-12">
               <div className="w-100 d-flex flex-column justify-content-center align-items-center">
-                {CQuestion[queIndex].option.map((option, i) => {
+                {BootstrapQuestion[queIndex].option.map((option, i) => {
                   return (
                     <button
                       className="btn position-relative w-75 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2"
