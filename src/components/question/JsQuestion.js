@@ -1,4 +1,4 @@
-export const jsLanguage = [
+export const JsQuestion = [
   {
     question: "Inside which element do we put the Javascript?",
     ans: 1,

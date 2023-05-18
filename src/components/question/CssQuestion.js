@@ -1,4 +1,4 @@
-export const QuizData = [
+export const CssQuestion = [
     {
         question: "The Full form of CSS is",
         options: ["coloured Special Sheets", "color and Style Sheet", "Cascading Style Sheets", "Cool Style Sheet"],
