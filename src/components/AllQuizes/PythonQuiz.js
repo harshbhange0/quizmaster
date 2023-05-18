@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from "react";
-import { CQuestion } from "../question/CQuestion";
+import { PyLanguage } from "../question/PyQuestion";
 import Scoreboard from "../Scoreboard";
-import CLangSvg from "../langIconData/CLangSvg";
+import Pythonsvg from "../langIconData/PythonSvg";
 import Navbar from '../Navbar';
 import SideBarSection from '../SideBar';
 import Footer from '../Footer';
@@ -14,7 +14,7 @@ function PythonQuiz() {
   const [trackClick, SetTrackClick] = useState(0);
 
   function changeQue() {
-    if (queIndex < CQuestion.length - 1) {
+    if (queIndex < PyLanguage.length - 1) {
       setQueIndex(queIndex + 1);
       updateScore();
     } else {
@@ -32,10 +32,10 @@ function PythonQuiz() {
   const [changeScore, setChangeScore] = useState(0);
 
   function updateScore() {
-    if (trackClick === CQuestion[queIndex].ans) {
+    if (trackClick === PyLanguage[queIndex].ans) {
       setChangeScore(changeScore + 1);
     } else {
-      console.log(CQuestion[queIndex].ans);
+      console.log(PyLanguage[queIndex].ans);
     }
   }
 
@@ -57,13 +57,13 @@ function PythonQuiz() {
                   <div className="question-section-holder" />
                   <div className="container">
           <div className="score-section d-flex">
-            <Scoreboard allQuestion={CQuestion.length} nowScore={changeScore} />
+            <Scoreboard allQuestion={PyLanguage.length} nowScore={changeScore} />
             <>
               <div className="d-flex m-2 w-100 rounded border justify-content-center align-items-center">
                 <span className="svg d-block mx-2 p-1">
-                  <CLangSvg width="60" />
+                  <Pythonsvg width="60" />
                 </span>
-                <span className="name d-block mx-2 fs-2 ">C Language</span>
+                <span className="name d-block mx-2 fs-2 ">Python</span>
               </div>
             </>
           </div>
@@ -73,15 +73,16 @@ function PythonQuiz() {
             <div className="col-12">
               <div className="mb-5">
                 <span className="d-block fs-2  w-100 text-center">
-                  {queIndex + 1}.{CQuestion[queIndex].question}
+                  {queIndex + 1}.{PyLanguage[queIndex].question}
                 </span>
               </div>
             </div>
             <div className="col-12">
               <div className="w-100 d-flex flex-column justify-content-center align-items-center">
-                {CQuestion[queIndex].option.map((option, i) => {
+                {PyLanguage[queIndex].option.map((option, i) => {
                   return (
                     <button
+                    key={i} 
                       className="btn position-relative w-75 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2"
                       onClick={function trackScore() {
                         SetTrackClick(i + 1);

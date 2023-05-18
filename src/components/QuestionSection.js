@@ -3,9 +3,6 @@ import { useState } from "react";
 import { CQuestion  } from "./question/CQuestion";
 import Scoreboard from "./Scoreboard";
 import CLangSvg from "./langIconData/CLangSvg";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import {BootstrapQuestion} from "./question/BootstrapQuestion";
 
 function QuestionSection() {
   const [queIndex, setQueIndex] = useState(0);
