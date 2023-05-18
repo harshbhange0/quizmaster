@@ -30,7 +30,7 @@ function Login() {
                             <label for="floatingPassword">Password</label>
                         </div>
                         <div className='mb-4 mt-2'>
-                            <a href="#" className='pass'>Forgot password?</a>
+                            <a href="/" className='pass'>Forgot password?</a>
                         </div>
                         <div class="d-grid gap-2">
                             <button class="btn signup-btn" type="button">Sign in </button>
