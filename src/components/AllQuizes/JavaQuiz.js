@@ -8,7 +8,7 @@ function JavaQuiz() {
     const [queIndex, setQueIndex] = useState(0);
     const [trackClick, SetTrackClick] = useState(0);
 
-  function changeQue() {
+  function javahangeQue() {
     if (queIndex < javaQuestion.length - 1) {
       setQueIndex(queIndex + 1);
       updateScore();
@@ -24,11 +24,11 @@ function JavaQuiz() {
       return;
     }
   }
-  const [changeScore, setChangeScore] = useState(0);
+  const [javahangeScore, setChangeScore] = useState(0);
 
   function updateScore() {
     if (trackClick === javaQuestion[queIndex].ans) {
-      setChangeScore(changeScore + 1);
+      setChangeScore(javahangeScore + 1);
     } else {
       console.log(javaQuestion[queIndex].ans);
     }
@@ -39,13 +39,13 @@ function JavaQuiz() {
       <div>
         <div className="container">
           <div className="score-section d-flex">
-            <Scoreboard allQuestion={javaQuestion.length} nowScore={changeScore} />
+            <Scoreboard allQuestion={javaQuestion.length} nowScore={javahangeScore} />
             <>
               <div className="d-flex m-2 w-100 rounded border justify-content-center align-items-center">
                 <span className="svg d-block mx-2 p-1">
-                  <CLangSvg width="60" />
+                  <javaLangSvg width="60" />
                 </span>
-                <span className="name d-block mx-2 fs-2 ">java sLanguage</span>
+                <span className="name d-block mx-2 fs-2 ">java Language</span>
               </div>
             </>
           </div>
@@ -89,7 +89,7 @@ function JavaQuiz() {
             </button>
             <button
               className="btn next-btn shadow-sm d-block mx-auto p-2 rounded-2 w-25"
-              onClick={changeQue}
+              onClick={javahangeQue}
             >
               Save & Next
             </button>
