@@ -1,4 +1,4 @@
-const javaLanguage =[
+const javaQuestion =[
       {
            question: "Number of primitive data types in Java are? ",
            option: [ " 6", " 7"," 8"," 8" ],

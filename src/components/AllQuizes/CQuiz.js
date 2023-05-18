@@ -82,6 +82,7 @@ function CQuiz() {
                 {CQuestion[queIndex].option.map((option, i) => {
                   return (
                     <button
+                    key={i} 
                       className="btn position-relative w-75 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2"
                       onClick={function trackScore() {
                         SetTrackClick(i + 1);

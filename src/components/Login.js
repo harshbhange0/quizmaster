@@ -11,7 +11,7 @@ function Login() {
             <div className='row'>
                 <div className='col-12 col-sm-12 col-md-6 p-0'>
                     <div className='container-fluid h-100 p-0'>
-                        <img src={img} className='img-fluid d-block img' />
+                        <img src={img} className='img-fluid d-block img'  alt=''/>
                     </div>
                 </div>
                 <div className='col-12 col-sm-12 col-md-6 p-0 d-flex align-items-center justify-content-center overflow-y-hidden'>
@@ -30,7 +30,7 @@ function Login() {
                             <label for="floatingPassword">Password</label>
                         </div>
                         <div className='mb-4 mt-2'>
-                            <a href="#" className='pass'>Forgot password?</a>
+                            <a href="/" className='pass'>Forgot password?</a>
                         </div>
                         <div class="d-grid gap-2">
                             <button class="btn signup-btn" type="button">Sign in </button>

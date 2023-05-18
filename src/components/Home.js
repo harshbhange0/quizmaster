@@ -2,9 +2,6 @@ import React from "react";
 import "./Home.css";
 
 import Homeimg1 from "./img/Home.jpg";
-
-
-
 import Navbar from "./Navbar";
 import letter from "./img/letter-c.png"
 import HTML from "./img/files.png";
@@ -16,7 +13,7 @@ import python from "./img/python.png"
 function Home() {
   return (
     <div>
-      {/* <div className="top-navbar">
+      <div className="top-navbar">
         <Navbar/>
       </div>
       <div className="Container">
@@ -54,7 +51,7 @@ function Home() {
           </div>
 
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }

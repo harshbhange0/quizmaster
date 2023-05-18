@@ -1,15 +1,11 @@
 import React from "react";
 import { useState } from "react";
-<<<<<<< HEAD
-import { AddArray  } from "./question/AddArray ";
-=======
+
+
 import { CQuestion  } from "./question/CQuestion";
->>>>>>> de46604d3a4b4a9fd6753c180ce7f58013bfbb57
+
 import Scoreboard from "./Scoreboard";
 import CLangSvg from "./langIconData/CLangSvg";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import {BootstrapQuestion} from "./question/BootstrapQuestion";
 
 function QuestionSection() {
   const [queIndex, setQueIndex] = useState(0);
