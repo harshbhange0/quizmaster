@@ -1,10 +1,11 @@
 import React from "react";
 import { useState } from "react";
-// import { AddArray  } from "./question/AddArray ";
+import { CQuestion  } from "./question/CQuestion";
 import Scoreboard from "./Scoreboard";
 import CLangSvg from "./langIconData/CLangSvg";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import {BootstrapQuestion} from "./question/BootstrapQuestion";
 
 function QuestionSection() {
   const [queIndex, setQueIndex] = useState(0);
@@ -12,7 +13,7 @@ function QuestionSection() {
   const [trackClick, SetTrackClick] = useState(0);
 
   function changeQue() {
-    if (queIndex < AddArray .length - 1) {
+    if (queIndex < CQuestion .length - 1) {
       setQueIndex(queIndex + 1);
       updateScore();
     } else {
@@ -30,22 +31,20 @@ function QuestionSection() {
   const [changeScore, setChangeScore] = useState(0);
 
   function updateScore() {
-    if (trackClick === AddArray [queIndex].ans) {
+    if (trackClick === CQuestion [queIndex].ans) {
       setChangeScore(changeScore + 1);
     } else {
-      console.log(AddArray [queIndex].ans);
+      console.log(CQuestion [queIndex].ans);
     }
   }
 
   return (
     <div>
-      <div className="top-navbar">
-        <Navbar/>
-      </div>
+
       <div className="container">
         <div className="score-section d-flex">
           <Scoreboard
-            allQuestion={AddArray .length}
+            allQuestion={CQuestion .length}
             nowScore={changeScore}
           />
           <>
@@ -63,13 +62,13 @@ function QuestionSection() {
           <div className="col-12">
             <div className="mb-5">
               <span className="d-block fs-2  w-100 text-center">
-                {queIndex + 1}. {AddArray [queIndex].question}
+                {queIndex + 1}. {CQuestion [queIndex].question}
               </span>
             </div>
           </div>
           <div className="col-12">
             <div className="w-100 d-flex flex-column justify-content-center align-items-center">
-              {AddArray [queIndex].option.map((option, i) => {
+              {CQuestion [queIndex].option.map((option, i) => {
                 return (
                   <button
                     className="btn position-relative w-75 btn-option shadow rounded-1 border-1 my-2 fs-5 p-2"
@@ -103,11 +102,8 @@ function QuestionSection() {
           </button>
         </div>
       </div>
-      <div className="Footer">
-        <Footer/>
-      </div>
     </div>
   );
 }
 
-export default QuestionSection;
+export default QuestionSection
