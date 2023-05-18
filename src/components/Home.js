@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 
 import Homeimg1 from "./img/Home.jpg";
-import Navbar from "./Navbar.js";
+import Navbar from "../Navbar.js";
 
 function Home() {
   return (
