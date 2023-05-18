@@ -38,8 +38,21 @@ function PythonQuiz() {
 
   return (
     <div>
-      <div>
-        <div className="container">
+    <div className="QuizeSction">
+      <div className="top-navbar">
+        <Navbar />
+      </div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="d-none d-sm-none d-md-flex col-md-3 border border-bottom-0 side-Sction-Holder ">
+            <SideBarSection />
+          </div>
+          <div className="col-12 col-sm-12 col-md-9">
+            <div className="container">
+              <div className="row">
+                <div className="col-12 ">
+                  <div className="question-section-holder" />
+                  <div className="container">
           <div className="score-section d-flex">
             <Scoreboard allQuestion={CQuestion.length} nowScore={changeScore} />
             <>
@@ -47,7 +60,7 @@ function PythonQuiz() {
                 <span className="svg d-block mx-2 p-1">
                   <CLangSvg width="60" />
                 </span>
-                <span className="name d-block mx-2 fs-2 ">python Language</span>
+                <span className="name d-block mx-2 fs-2 ">C Language</span>
               </div>
             </>
           </div>
@@ -76,7 +89,7 @@ function PythonQuiz() {
                       </span>
                       {option}
                     </button>
-                  );
+                  );  
                 })}
               </div>
             </div>
@@ -87,7 +100,7 @@ function PythonQuiz() {
               className="btn priv-btn shadow-sm d-block mx-auto p-2 rounded-2 w-25"
               onClick={priQue}
             >
-              Priv
+              Prev
             </button>
             <button
               className="btn next-btn shadow-sm d-block mx-auto p-2 rounded-2 w-25"
@@ -97,7 +110,16 @@ function PythonQuiz() {
             </button>
           </div>
         </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="footer">
+                  <Footer/>
+                </div>
+        </div>
       </div>
+    </div>
     </div>
   );
 }
