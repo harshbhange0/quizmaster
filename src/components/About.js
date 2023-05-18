@@ -61,9 +61,9 @@ function About() {
                 <AboutCard
                     ProfilPick="https://github.com/.png"
                     AboutCardTitle="Vaibhav Gaikwad"
-                    GitHub=""
-                    linkedin=""
-                    Instagram=""
+                    GitHub="https://github.com/vaibhavgaikwad8476"
+                    linkedin="https://www.linkedin.com/in/vaibhav-gaikwad-4423b9249"
+                    Instagram="https://instagram.com/vaibhav_gaikwad_8476?igshid=YmMyMTA2M2Y="
                     Twitter=""
                 />
 
