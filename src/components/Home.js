@@ -26,6 +26,7 @@ function Home() {
           <div className="Container1">
 
           <div className="home-heading"> 
+      
           <img src={letter} className="Lang-img" alt="..." />
             <h5 class="langName">C </h5>
             <p class="font">C is a general-purpose programming language created by Dennis Ritchie at the Bell Laboratories in 1972.
