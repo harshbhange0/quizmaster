@@ -2,12 +2,12 @@ import React from "react";
 import "./Home.css";
 
 import Homeimg1 from "./img/Home.jpg";
-import Navbar from "./Navbar";
+import Navbar from "./Navbar.js";
 
 function Home() {
   return (
     <div>
-      <div className="top-navbar">
+      {/* <div className="top-navbar">
         <Navbar/>
       </div>
       <div className="contanier">
@@ -18,7 +18,7 @@ function Home() {
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

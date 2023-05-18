@@ -1,4 +1,5 @@
-const nodelanguage = [
+ export const NodeLanguage = [
+    
     {
         id: 1,
         question:"Which of the following statement are true?",
