@@ -3,6 +3,9 @@ import { useState } from "react";
 import { CQuestion } from "../question/CQuestion";
 import Scoreboard from "../Scoreboard";
 import CLangSvg from "../langIconData/CLangSvg";
+import Navbar from '../Navbar';
+import SideBarSection from '../SideBar';
+import Footer from '../Footer';
 
 function PythonQuiz() {
 

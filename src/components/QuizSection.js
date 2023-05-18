@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import SideBarSection from "./SideBar";
+import SideBarSection from "./SideBar";    
 import Footer from "./Footer";
 import Computer from "./img/Computer.png"
 
