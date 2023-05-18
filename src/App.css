@@ -55,7 +55,11 @@
 }
 @media ((max-width: 796px)){
     .question-sction {width: 100%;}
+    .quiz-info h1 {
+        font-size: 14px;
+    }
 }
+
 
 
 

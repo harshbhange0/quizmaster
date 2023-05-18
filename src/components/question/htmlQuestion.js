@@ -1,4 +1,4 @@
-export const htmlQuestion = [
+export const HtmlQuestion = [
     {
         question:
         "Who is the father of HTML?",

@@ -3,6 +3,10 @@ import { useState } from "react";
 import { CQuestion } from "../question/CQuestion";
 import Scoreboard from "../Scoreboard";
 import CLangSvg from "../langIconData/CLangSvg";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
+import SideBarSection from "../SideBar";
+
 
 function CQuiz() {
   const [queIndex, setQueIndex] = useState(0);
@@ -37,8 +41,21 @@ function CQuiz() {
 
   return (
     <div>
-      <div>
-        <div className="container">
+    <div className="QuizeSction">
+      <div className="top-navbar">
+        <Navbar />
+      </div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="d-none d-sm-none d-md-flex col-md-3 border border-bottom-0 side-Sction-Holder ">
+            <SideBarSection />
+          </div>
+          <div className="col-12 col-sm-12 col-md-9">
+            <div className="container">
+              <div className="row">
+                <div className="col-12 ">
+                  <div className="question-section-holder" />
+                  <div className="container">
           <div className="score-section d-flex">
             <Scoreboard allQuestion={CQuestion.length} nowScore={changeScore} />
             <>
@@ -75,7 +92,7 @@ function CQuiz() {
                       </span>
                       {option}
                     </button>
-                  );
+                  );  
                 })}
               </div>
             </div>
@@ -86,7 +103,7 @@ function CQuiz() {
               className="btn priv-btn shadow-sm d-block mx-auto p-2 rounded-2 w-25"
               onClick={priQue}
             >
-              Priv
+              Prev
             </button>
             <button
               className="btn next-btn shadow-sm d-block mx-auto p-2 rounded-2 w-25"
@@ -96,8 +113,18 @@ function CQuiz() {
             </button>
           </div>
         </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="footer">
+                  <Footer/>
+                </div>
+        </div>
       </div>
     </div>
+    </div>
+     
   );
 }
 
