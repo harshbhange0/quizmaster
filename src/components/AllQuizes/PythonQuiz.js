@@ -63,7 +63,7 @@ function PythonQuiz() {
                 <span className="svg d-block mx-2 p-1">
                   <Pythonsvg width="60" />
                 </span>
-                <span className="name d-block mx-2 fs-2 ">Python</span>
+                <span className="name d-block mx-2 fs-2 ">Python language</span>
               </div>
             </>
           </div>
