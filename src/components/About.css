@@ -1,8 +1,22 @@
-.profile-pick{
-    object-fit: cover;
-
+.profile-pick {
+  object-fit: cover;
+  height: 270px;
+  width: 270px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* .card{
-    background-color: #eeccff;
-} */
+
+.About-Holder {
+  background: #f2eef9;
+}
+.AboutCard{
+    background-color: #ffffff;
+}
+
+.AboutCard:hover{
+    transition: ease-in .10s;
+    box-shadow: 0 0 1rem #cfbdec !important;
+}
 
