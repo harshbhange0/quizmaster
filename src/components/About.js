@@ -1,7 +1,6 @@
 import React from 'react'
 import './About.css'
 import AboutCard from './AboutCard';
-import { ReactPropTypes } from 'react';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 
