@@ -5,7 +5,7 @@ import Scoreboard from '../Scoreboard';
 import HtmlSvg from '../langIconData/HtmlSvg';
 import Footer from '../Footer';
 import { useState } from "react";
-import { HtmlQuestion } from "../question/HtmlQuestion";
+import { HtmlQuestion } from "../AllQuizes/BootstrapQuiz";
 
 
 function HtmlQuiz() {
