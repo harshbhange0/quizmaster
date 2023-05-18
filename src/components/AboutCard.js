@@ -28,7 +28,7 @@ function AboutCard({
       <img
         className="card-img profile-pick"
         src={ProfilPick}
-        alt="profile photo"
+        alt=""
       />
       <div className="card-body mt-2">
         <h2 className="text-center">{AboutCardTitle}</h2>
