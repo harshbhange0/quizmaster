@@ -1,4 +1,4 @@
-const nodelanguage = [
+export const NodeQuestion = [
     {
         id: 1,
         question:"Which of the following statement are true?",
