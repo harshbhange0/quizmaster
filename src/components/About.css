@@ -20,3 +20,10 @@
     box-shadow: 0 0 1rem #cfbdec !important;
 }
 
+.page-tittle{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
