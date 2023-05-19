@@ -6,6 +6,7 @@ import Pythonsvg from "../langIconData/PythonSvg";
 import Navbar from '../Navbar';
 import SideBarSection from '../SideBar';
 import Footer from '../Footer';
+import ResultShow from "../ResultShow"; 
 
 function PythonQuiz() {
 
@@ -18,7 +19,7 @@ function PythonQuiz() {
       setQueIndex(queIndex + 1);
       updateScore();
     } else {
-      return;
+      SetShowResult(true) 
     }
   }
 
@@ -36,8 +37,21 @@ function PythonQuiz() {
       setChangeScore(changeScore + 1);
     } else {
       console.log(PyLanguage[queIndex].ans);
+      SetWrong(Wrong+1)
     }
   }
+  const [ShowResult,SetShowResult]=useState(false); 
+
+  const [Wrong,SetWrong]=useState(0)
+
+  function RestAll (){
+    setQueIndex(0)
+    SetShowResult(false)
+    setChangeScore(0)
+    SetWrong(0)
+
+  }
+
 
   return (
     <div>
@@ -45,6 +59,15 @@ function PythonQuiz() {
       <div className="top-navbar">
         <Navbar />
       </div>
+      {ShowResult ?(
+        <div className=" d-flex justify-content-center align-items-center w-100 h-100">
+           <ResultShow
+        AllQuestion={PyLanguage.length}
+        SolvedQueStion={changeScore} 
+        WrongQuestion={Wrong}
+        RestFun={RestAll}
+        />
+        </div>):( 
       <div className="container-fluid">
         <div className="row">
           <div className="d-none d-sm-none d-md-flex col-md-3 border border-bottom-0 side-Sction-Holder ">
@@ -123,6 +146,7 @@ function PythonQuiz() {
                 </div>
         </div>
       </div>
+         )} 
     </div>
     </div>
   );

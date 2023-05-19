@@ -20,7 +20,7 @@ function QuizSection() {
               <div className="row">
                 <div className="col-12 quiz-info d-flex  d-flex justify-content-center align-items-center">
                   <div className=" p-1 p-sm-2 p-md-5 my-4 mx-1 mx-sm-2 mx-md-5 rounded-2 shadow-sm border">
-                 <img src={Computer}alt="" className="d-block my-3 mx-auto img-fluid" width="500" />
+                 <img src={Computer}alt="" className="d-block my-3 mx-auto img-fluid quiz-section-img" width="500" />
                     <h1 className="text-center  m-auto">
                       Choose any four programming languages and try to beat the
                       highest record to win a <span className=" text-uppercase border-bottom ">certificate</span>  from us
