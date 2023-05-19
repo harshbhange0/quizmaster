@@ -2,7 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import cerf from './img/cerf.png'
 import harshCertificate from './img/harshCert.png'
-import ruchikaCertificate from './img/ruchikaCert.png'
+import ruchikaCertificate from './img/ruchikaCert.png.png'
 import nikitaCertificate from './img/nikitaCert.png'
 
 function Certification() {
