@@ -11,9 +11,9 @@ function Certification() {
     <Navbar/>
   </div>
     <div className='container'>
-      <div className="row text-center">
+      <div className="row  text-center">
         <h1 className="text-center my-4">Free Online Quizz With Certificates</h1>
-        <div className="row align-items-md-stretch">
+        <div className="row align-items-md-stretch m-auto">
           <div className="col-md-6">
             <div className="h-100 p-5 back-color rounded-3 ">
               <h2>"Unlock Your Knowledge, Complete the Quiz, and Earn Your Certification!"</h2>
@@ -22,13 +22,13 @@ function Certification() {
             </div>
           </div>
           <div className="col-md-6 ">
-            <div className="h-100  bg-body-tertiary border rounded-3 shadow">
+            <div className="h-100  bg-body-tertiary border rounded-3 shadow ">
               <img src={cerf} alt="" height="300px" />
             </div>
           </div>
         </div>
       </div>
-      <h2 className="text-lg-center text-md-center mt-5">Recent students Who Completed their Quizz</h2>
+      <h2 className="text-lg-center text-md-center mt-5 text-center">Recent students Who Completed their Quizz</h2>
     <div className="row">
       <div className="col col-md-4">
         <div className="card m-auto my-5  shadow width-in-rem " >
