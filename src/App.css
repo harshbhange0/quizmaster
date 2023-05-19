@@ -1,3 +1,16 @@
+:root{
+    --quiz-section-img-shadow:#e6d8fd;
+    --html-home-svg-img-shadow:#e53900;
+    --js-home-svg-img-shadow:#ffd600;
+    --css-home-svg-img-shadow:#0277bd;
+    --bootstrap-home-svg-img-shadow:#673ab7;
+    --node-home-svg-img-shadow:#21a366;
+    --react-home-svg-img-shadow:#61dbfb;
+    --c-home-svg-img-shadow:#3949ab;
+    --python-home-svg-img-shadow:#ffd116;
+    --java-home-svg-img-shadow:#1565c0;
+   
+}
 .modify-navbar{
     background-color: #e4d8fd;
 }
@@ -42,6 +55,38 @@
 /* .App{
     background-color: #fbf6ff;
 } */
+
+.quiz-section-img {
+    filter: drop-shadow(0 0 1rem var(--quiz-section-img-shadow));
+    margin: auto;
+  }
+  .html-svg{
+    filter: drop-shadow(0 0  0.2rem var(--html-home-svg-img-shadow));
+  }
+  .js-svg{
+    filter: drop-shadow(0 0  0.2rem var(--js-home-svg-img-shadow));
+  }
+  .css-svg{
+    filter: drop-shadow(0 0  0.2rem var(--css-home-svg-img-shadow));
+  }
+  .bootstrap-svg{
+    filter: drop-shadow(0 0  0.2rem var(--bootstrap-home-svg-img-shadow));
+  }
+  .node-svg{
+    filter: drop-shadow(0 0  0.2rem var(--node-home-svg-img-shadow));
+  }
+  .react-svg{
+    filter: drop-shadow(0 0  0.2rem var(--react-home-svg-img-shadow));
+  }
+  .python-svg{
+    filter: drop-shadow(0 0  0.2rem var(-python--home-svg-img-shadow));
+  }
+  .java-svg{
+    filter: drop-shadow(0 0  0.2rem var(--java-home-svg-img-shadow));
+  }
+  .c-svg{
+    filter: drop-shadow(0 0  0.2rem var(--c-home-svg-img-shadow));
+  }
 
 .que-number{
     left: 10px;
