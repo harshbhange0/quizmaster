@@ -12,6 +12,11 @@ function About() {
                 <Navbar />
             </div>
 
+            <div className='page-tittle '>
+                <h1>OUR TEAM</h1>
+            </div>
+
+
             <div className='d-flex justify-content-evenly flex-wrap'>
                 <AboutCard
                     ProfilPick="https://github.com/harshbhange0.png"
