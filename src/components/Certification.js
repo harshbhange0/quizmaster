@@ -4,6 +4,7 @@ import cerf from './img/cerf.png'
 import harshCertificate from './img/harshCert.png'
 import ruchikaCertificate from './img/ruchikaCert.png'
 import nikitaCertificate from './img/nikitaCert.png'
+import Footer from "./Footer"
 
 function Certification() {
   return (<>
@@ -62,6 +63,10 @@ function Certification() {
 
 
 
+    </div>
+
+    <div className='footer'>
+      <Footer/>
     </div>
     </>
   )

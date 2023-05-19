@@ -11,8 +11,11 @@ import JavaSvg from './langIconData/JavaSvg';
 import Navbar from './Navbar';
 import homepageimg2  from './img/homepageimg2.png';
 import "./Home.css";
+
 import {Link} from 'react-router-dom';
 import Footer from './Footer'
+
+
 
 
 
@@ -86,7 +89,13 @@ function Home() {
 
     </div>
       </div>
+
       <div className="footer"><Footer/></div>
+
+
+      <div className="footer">
+        <Footer/>
+      </div>
 
     </div>
 

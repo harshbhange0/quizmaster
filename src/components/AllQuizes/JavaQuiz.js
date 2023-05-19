@@ -6,6 +6,7 @@ import JavaSvg from "../langIconData/JavaSvg";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import SideBarSection from "../SideBar";
+import ResultShow from "../ResultShow";
 
 function JavaQuiz() {
   const [queIndex, setQueIndex] = useState(0);
@@ -17,7 +18,7 @@ function JavaQuiz() {
       setQueIndex(queIndex + 1);
       updateScore();
     } else {
-      return;
+      SetShowResult(true)
     }
   }
 
@@ -35,17 +36,39 @@ function JavaQuiz() {
       setChangeScore(changeScore + 1);
     } else {
       console.log(javaQuestion[queIndex].ans);
+      SetWrong(Wrong+1)
     }
   }
 
+  const [ShowResult,SetShowResult]=useState(false); 
+
+  const [Wrong,SetWrong]=useState(0)
+
+  function RestAll (){
+    setQueIndex(0)
+    SetShowResult(false)
+    setChangeScore(0)
+    SetWrong(0)
+
+  }
+
   return (
-    <div>
-    <div className="QuizeSction">
+   
       <div>
         <div className="QuizeSction">
           <div className="top-navbar">
             <Navbar />
           </div>
+
+          {ShowResult ?(
+        <div className=" d-flex justify-content-center align-items-center w-100 h-100">
+           <ResultShow
+        AllQuestion={javaQuestion.length}
+        SolvedQueStion={changeScore}  //this
+        WrongQuestion={Wrong}
+        RestFun={RestAll}
+        />
+        </div>):( 
           <div className="container-fluid">
             <div className="row">
               <div className="d-none d-sm-none d-md-flex col-md-3 border border-bottom-0 side-Sction-Holder ">
@@ -131,11 +154,11 @@ function JavaQuiz() {
                 <Footer />
               </div>
             </div>
-          </div>
+          </div>    
+          )}
         </div>
       </div>
-    </div>
-    </div>
+
   );
   
 }
