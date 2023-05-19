@@ -100,63 +100,63 @@ function Footer() {
             <div className="d-flex  flex-wrap justify-content-center align-items-center">
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link  "
-                href="/"
+                href="https://github.com/harshbhange0"
               >
                 {" "}
                 Harsh Bhange
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link   "
-                href="/"
+                href="https://github.com/saurabhjaykar1603?fbclid=PAAaY3qw6FDsmuEC_bzQEKrDcEGcedOB8dTSapaN-iQEjwwoDba8t31EQN82I"
               >
                 {" "}
                 Saurabh Jaykar
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link   "
-                href="/"
+                href="https://github.com/RuchikaKadu02"
               >
                 {" "}
                 Ruchika kadu
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
-              >
-                {" "}
-                Sanika bargal
-              </a>
-              <a
-                className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
-              >
-                {" "}
-                Nikita Jambe
-              </a>
-              <a
-                className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
-              >
-                {" "}
-                Rahul Pawar
-              </a>
-              <a
-                className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
-              >
-                {" "}
-                Vaibhav Gaikwad
-              </a>
-              <a
-                className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
+                href="https://github.com/SwetaRamteke-74"
               >
                 {" "}
                 Shweta Ramteke
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
+                href="https://github.com/sanikabargal7.png"
+              >
+                {" "}
+                Sanika bargal
+              </a>
+              <a
+                className="d-block mx-2 text-dark text-decoration-none dev-link "
+                href="https://github.com/nikitajambe"
+              >
+                {" "}
+                Nikita Jambe
+              </a>
+              <a
+                className="d-block mx-2 text-dark text-decoration-none dev-link "
+                href="https://github.com/rp7003"
+              >
+                {" "}
+                Rahul Pawar
+              </a>
+              <a
+                className="d-block mx-2 text-dark text-decoration-none dev-link "
+                href="https://github.com/vaibhavgaikwad8476"
+              >
+                {" "}
+                Vaibhav Gaikwad
+              </a>
+              <a
+                className="d-block mx-2 text-dark text-decoration-none dev-link "
+                href="https://github.com/tejas7558"
               >
                 {" "}
                 Tejas
