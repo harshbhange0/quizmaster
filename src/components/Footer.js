@@ -103,63 +103,63 @@ function Footer() {
                 href="/"
               >
                 {" "}
-                wel come
+                Harsh Bhange
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link   "
                 href="/"
               >
                 {" "}
-                wel come
+                Saurabh Jaykar
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link   "
                 href="/"
               >
                 {" "}
-                wel come
+                Ruchika kadu
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
                 href="/"
               >
                 {" "}
-                wel come
+                Sanika bargal
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
                 href="/"
               >
                 {" "}
-                wel come
+                Nikita Jambe
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
                 href="/"
               >
                 {" "}
-                wel come
+                Rahul Pawar
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
                 href="/"
               >
                 {" "}
-                wel come
+                Vaibhav Gaikwad
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
                 href="/"
               >
                 {" "}
-                wel come
+                Shweta Ramteke
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
                 href="/"
               >
                 {" "}
-                wel come
+                Tejas
               </a>
             </div>
           </div>

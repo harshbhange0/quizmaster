@@ -11,7 +11,8 @@ import JavaSvg from './langIconData/JavaSvg';
 import Navbar from './Navbar';
 import homepageimg2  from './img/homepageimg2.png';
 import "./Home.css";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import Footer from './Footer'
 
 
 
@@ -24,20 +25,8 @@ function Home() {
       <div className="row">
         <div className="col-12 col-sm-12 col-md-12 ">
           <div className="container my-3">
-            <h1 className="heading text-center my-3">WELCOME TO QUIZ MASTER!!</h1>
-           <p className="d-block w-50 my-4 disable mx-auto text-center">Boost your knowledge by appearing for the quiz with different coding languages like C,C++, HTML, CSS, BOOTSTRAP, PYTHON, JAVA, JAVASCRIPT, REACTJS  ETC..</p>
-           </div>
-           <div className="d-flex justify-content-around align-item-center flex-wrap">
-              <div className="m-2"><HtmlSvg width="20"/></div>
-              <div className="m-2">< JsSvg width="20"/></div>
-              <div className="m-2">< CssSvg width="20"/></div>
-              <div className="m-2">< BootstrapSvg width="20"/></div>
-              <div className="m-2">< ReactSvg width="20"/></div>
-              <div className="m-2">< CLangsvg width="80"/></div>
-              <div className="m-2"><NodeSvg width="20"/></div>
-              <div className="m-2"><PythonSvg width="20"/></div>
-              <div className="m-2"><JavaSvg width="20px"/></div>
-
+            <h1 className="heading-text  text-center my-3 ">WELCOME TO QUIZ MASTER!!</h1>
+           <p className="d-block w-50 my-4 disable mx-auto text-center">Boost your knowledge by appearing for the quiz with different coding languages.</p>
            </div>
 
            
@@ -78,11 +67,26 @@ function Home() {
 
             </div>
         </div>
+
     </div>
+      <h3 className="text-center my-5"> Provided languages :</h3>
+    <div className="d-flex justify-content-around align-item-center flex-wrap">
+              <div className="m-2"><HtmlSvg width="20"/></div>
+              <div className="m-2">< JsSvg width="20"/></div>
+              <div className="m-2">< CssSvg width="20"/></div>
+              <div className="m-2">< BootstrapSvg width="20"/></div>
+              <div className="m-2">< ReactSvg width="20"/></div>
+              <div className="m-2">< CLangsvg width="80"/></div>
+              <div className="m-2"><NodeSvg width="20"/></div>
+              <div className="m-2"><PythonSvg width="20"/></div>
+              <div className="m-2"><JavaSvg width="20px"/></div>
+
+           </div>
 
 
     </div>
       </div>
+      <div className="footer"><Footer/></div>
 
     </div>
 
