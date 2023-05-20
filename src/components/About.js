@@ -3,6 +3,8 @@ import './About.css'
 import AboutCard from './AboutCard';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import shweta from '../components/img/logos/shweta.jpeg';
+import vaibhav from '../components/img/logos/vaibhav.jpeg'
 
 function About() {
     return (
@@ -46,7 +48,7 @@ function About() {
                 />
 
                 <AboutCard
-                    ProfilPick="https://github.com/SwetaRamteke-74.png"
+                    ProfilPick={shweta}
                     AboutCardTitle="Sweta Ramteke"
                     GitHub="https://github.com/SwetaRamteke-74"
                     linkedin="https://www.linkedin.com/in/sweta-ramteke-539a28248/"
@@ -64,7 +66,7 @@ function About() {
                 />
 
                 <AboutCard
-                    ProfilPick="https://github.com/vaibhavgaikwad8476 .png"
+                    Profilepick={vaibhav}
                     AboutCardTitle="Vaibhav Gaikwad"
                     GitHub="https://github.com/vaibhavgaikwad8476"
                     linkedin="https://www.linkedin.com/in/vaibhav-gaikwad-4423b9249"
