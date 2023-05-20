@@ -6,7 +6,7 @@ function ResultShow({ AllQuestion, SolvedQueStion, WrongQuestion,RestFun }) {
       <span className="d-block my-3 text-center fs-3">All Question: {AllQuestion}</span>
       <span className="d-block my-3 text-center fs-3">Solved Questions: {SolvedQueStion}</span>
       <span className="d-block my-3 text-center fs-3">Wrong Questions: {WrongQuestion}</span>
-      <button className="mt-4  fs-3 next-btn btn d-block w-25 mx-auto" onClick={RestFun}>Rest</button>
+      <button className="mt-4  fs-3 next-btn btn d-block w-25 mx-auto" onClick={RestFun}>Reset</button>
     </div>
   );
 }

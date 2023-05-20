@@ -44,7 +44,7 @@ function BootstrapQuiz() {
 
   const [Wrong,SetWrong]=useState(0)
 
-  function RestAll (){
+  function ResetAll (){
     setQueIndex(0)
     SetShowResult(false)
     setChangeScore(0)
@@ -66,7 +66,7 @@ function BootstrapQuiz() {
         AllQuestion={BootstrapQuestion.length}
         SolvedQueStion={changeScore + 1}
         WrongQuestion={Wrong}
-        RestFun={RestAll}
+        RestFun={ResetAll}
         />
         </div>):(
       <div className="container-fluid">
