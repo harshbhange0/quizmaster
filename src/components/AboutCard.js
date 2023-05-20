@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import github from "./img/logos/github.png";
 import linkdin from "./img/logos/linkedin.png";
-import gmail from "./img/logos/gmail.png";
+import Gmail from "./img/logos/gmail.png";
 import instagram from "./img/logos/instagram.png";
 import Css from "./img/logos/css.png";
 import Html from "./img/logos/html.png";
@@ -14,18 +14,15 @@ function AboutCard({
   ProfilPick,
   AboutCardTitle,
   Instagram,
-  Gmail,
+  Twitter,
   Github,
   linkedin
 }) {
   return (
-
-   <div>
-    
     <div
       className="card AboutCard m-5 p-3  rounded-3 "
       style={{
-        width: "23rem"
+        width: "24rem"
       }}
     >
       <img
@@ -62,10 +59,11 @@ function AboutCard({
               <img src={linkdin} alt="" width="30px" />
             </a>
             <a href={Github} className="m-1 p-1 text-dark social-logo">
+              {" "}
               <img src={github} alt="" width="30px" />
             </a>
             <a href={Gmail} className="m-1 p-1 text-dark social-logo">
-              <img src={gmail} alt="" width="30px" />
+              <img src={Gmail} alt="" width="30px" />
             </a>
             <a href={Instagram} className="m-1 p-1 text-dark social-logo">
               <img src={instagram} alt="" width="30px" />
@@ -74,9 +72,6 @@ function AboutCard({
         </div>
       </div>
     </div>
-
-   </div>
-    
   );
 }
 

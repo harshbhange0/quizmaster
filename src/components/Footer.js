@@ -100,66 +100,66 @@ function Footer() {
             <div className="d-flex  flex-wrap justify-content-center align-items-center">
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link  "
-                href="/"
+                href="https://github.com/harshbhange0"
               >
                 {" "}
-                wel come
+                Harsh Bhange
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link   "
-                href="/"
+                href="https://github.com/saurabhjaykar1603?fbclid=PAAaY3qw6FDsmuEC_bzQEKrDcEGcedOB8dTSapaN-iQEjwwoDba8t31EQN82I"
               >
                 {" "}
-                wel come
+                Saurabh Jaykar
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link   "
-                href="/"
+                href="https://github.com/RuchikaKadu02"
               >
                 {" "}
-                wel come
+                Ruchika kadu
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
+                href="https://github.com/SwetaRamteke-74"
               >
                 {" "}
-                wel come
+                Shweta Ramteke
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
+                href="https://github.com/sanikabargal7.png"
               >
                 {" "}
-                wel come
+                Sanika bargal
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
+                href="https://github.com/nikitajambe"
               >
                 {" "}
-                wel come
+                Nikita Jambe
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
+                href="https://github.com/rp7003"
               >
                 {" "}
-                wel come
+                Rahul Pawar
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
+                href="https://github.com/vaibhavgaikwad8476"
               >
                 {" "}
-                wel come
+                Vaibhav Gaikwad
               </a>
               <a
                 className="d-block mx-2 text-dark text-decoration-none dev-link "
-                href="/"
+                href="https://github.com/tejas7558"
               >
                 {" "}
-                wel come
+                Tejas
               </a>
             </div>
           </div>

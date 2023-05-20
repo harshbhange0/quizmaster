@@ -6,6 +6,8 @@ import CLangSvg from "../langIconData/CLangSvg";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
 import SideBarSection from "../SideBar";
+import ResultShow from "../ResultShow";  //this
+
 
 
 function CQuiz() {
@@ -13,12 +15,14 @@ function CQuiz() {
 
   const [trackClick, SetTrackClick] = useState(0);
 
+ 
+
   function changeQue() {
     if (queIndex < CQuestion.length - 1) {
       setQueIndex(queIndex + 1);
       updateScore();
     } else {
-      return;
+      SetShowResult(true) //this
     }
   }
 
@@ -36,16 +40,46 @@ function CQuiz() {
       setChangeScore(changeScore + 1);
     } else {
       console.log(CQuestion[queIndex].ans);
+      SetWrong(Wrong+1) //this
     }
   }
+
+
+  const [ShowResult,SetShowResult]=useState(false); //this
+
+  const [Wrong,SetWrong]=useState(0)
+
+  function RestAll (){
+    setQueIndex(0)
+    SetShowResult(false)
+    setChangeScore(0)
+    SetWrong(0)
+
+  }
+
+  
+
+
+
+
 
   return (
     <div>
     <div className="QuizeSction">
       <div className="top-navbar">
         <Navbar />
-      </div>
-      <div className="container-fluid">
+        </div>
+        {ShowResult ?(
+        <div className=" d-flex justify-content-center align-items-center w-100 h-100">
+           <ResultShow
+        AllQuestion={CQuestion.length}
+        SolvedQueStion={changeScore}  //this
+        WrongQuestion={Wrong}
+        RestFun={RestAll}
+        />
+        </div>):( 
+          
+          <div className="container-fluid">
         <div className="row">
           <div className="d-none d-sm-none d-md-flex col-md-3 border border-bottom-0 side-Sction-Holder ">
             <SideBarSection />
@@ -116,13 +150,14 @@ function CQuiz() {
         </div>
                 </div>
               </div>
-            </div>
+             </div> 
           </div>
           <div className="footer">
                   <Footer/>
                 </div>
         </div>
       </div>
+       )} 
     </div>
     </div>
      

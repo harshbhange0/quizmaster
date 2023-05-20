@@ -11,9 +11,11 @@ function About() {
             <div className="top-navbar">
                 <Navbar />
             </div>
+
             <div className='page-tittle '>
-                <h1>DEVELOPERS</h1>
+                <h1 className='text-center my-4'>OUR TEAM</h1>
             </div>
+
 
             <div className='d-flex justify-content-evenly flex-wrap'>
                 <AboutCard
@@ -62,12 +64,12 @@ function About() {
                 />
 
                 <AboutCard
-                    ProfilPick="https://github.com/vaibhavgaikwad8476.png"
+                    ProfilPick="https://github.com/vaibhavgaikwad8476 .png"
                     AboutCardTitle="Vaibhav Gaikwad"
                     GitHub="https://github.com/vaibhavgaikwad8476"
                     linkedin="https://www.linkedin.com/in/vaibhav-gaikwad-4423b9249"
                     Instagram="https://instagram.com/vaibhav_gaikwad_8476?igshid=YmMyMTA2M2Y="
-                    Gmail="vaibhavgaikwad8476@gmail.com"
+                    Twitter=""
                 />
 
                 <AboutCard
